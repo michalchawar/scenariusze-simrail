@@ -166,8 +166,9 @@ function OnVirtualDispatcherResponseReceived(orderId, status)
             end,
             nil,
             function ()
-                Log(orderLog.from .. " => " .. orderLog.to .. " [T, R]")
-                local retriedOrderId = VDSetRoute(orderLog.from, orderLog.to, orderLog.type)
+                -- Log(orderLog.from .. " => " .. orderLog.to .. " [T, R]")
+                -- local retriedOrderId = VDSetRoute(orderLog.from, orderLog.to, orderLog.type)
+                local retriedOrderId = orderLog.order()
                 UpdateOrderStorageLog(orderId, retriedOrderId)
             end
         )

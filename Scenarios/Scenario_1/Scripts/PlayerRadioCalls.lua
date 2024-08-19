@@ -62,7 +62,7 @@ function PlayerRadioCalls()
         ["KO_M9"] = {
             -- after attaching carts to IC 14002 Polonia
             function ()
-                SetValue("poloniaReady", true)
+                SetValue("phasePoloniaDone", true)
 
                 RadioPlayerCall("Polonia_ready")
                 coroutine.yield(CoroutineYields.WaitForSeconds, 2)
@@ -70,7 +70,21 @@ function PlayerRadioCalls()
                 RadioCall("MM_Polonia_Done")
                 coroutine.yield(CoroutineYields.WaitForSeconds, 6)
 
-                SetShuntingRoute({"KO_M3", "KO_Tm32", "KO_Tm13"})
+                SetShuntingRoute({"KO_M9", "KO_Tm34", "KO_Tm10", "KO_Tm7", "KO_Dkps"})
+            end
+        },
+        ["KO_Tm17"] = {
+            -- after attaching free TLK carts
+            function ()
+                SetValue("tlkAttached", true)
+
+                RadioPlayerCall("TLK_Attached")
+                coroutine.yield(CoroutineYields.WaitForSeconds, 2)
+                
+                RadioCall("MM_TLK_Attached")
+                coroutine.yield(CoroutineYields.WaitForSeconds, 6)
+
+                SetShuntingRoute({"KO_Tm17", "KO_E20", "KO_Tm502", "t8932k"})
             end
         },
     }

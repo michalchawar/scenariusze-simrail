@@ -182,5 +182,71 @@ function PlayerEvents()
                 end
             end
         },
+        { "KO_Tm7", 155,
+            function()
+                RadioCall("MM_TLK_Before_Tm1")
+            end
+        },
+        { "t9121", 22,
+            function()
+                RadioCall("MM_TLK_Tm1_0m")
+
+                coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+                SetShuntingRoute({"KO_Tm1", "KO_Tm16", "KO_F"})
+            end
+        },
+        { "t27108", 85,
+            function()
+                RadioCall("MM_TLK_50m")
+                SetSwitchPosition("z248", true)
+                SetSwitchPosition("z242", true)
+                SetSwitchPosition("z233", true)
+                SetSwitchPosition("z231", false)
+            end,
+            function()
+                return GetValue("phasePoloniaDone")
+            end
+        },
+        { "t9646", 25,
+            function()
+                RadioCall("MM_TLK_Done")
+                coroutine.yield(CoroutineYields.WaitForSeconds, 5)
+                SetSwitchPosition("z231", true)
+                SetShuntingRoute({"KO_Tm504", "KO_Tm4"})
+            end
+        },
+        { "KO_Tm4", 401,
+            function()
+                RadioCall("MM_Ending_Tm501_0m")
+
+                local playerVehicle = GetPlayerVehicle()
+                coroutine.yield(CoroutineYields.WaitForVehicleStop, playerVehicle())
+
+                CallAsCoroutine(function ()
+                    WaitUntil(function ()
+                        return playerVehicle.controller.activeCabin == 0
+                           and playerVehicle.controller.direction == 0
+                           and playerVehicle.controller.batteryStatus == false
+                           and playerVehicle.controller.pant1Status == PantographStatus.lowered
+                           and playerVehicle.controller.pant2Status == PantographStatus.lowered
+                           and GetCameraView() == CameraView.FirstPersonWalkingOutside
+                    end)
+
+                    DisplayMessage("Mission_ending_in_15s", 8)
+                    coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+
+                    FinishMission(MissionResultEnum.Success)
+                end)
+
+                CallAsCoroutine(function ()
+                    coroutine.yield(CoroutineYields.WaitForSeconds, 135)
+
+                    DisplayMessage("Mission_ending_in_30s", 10)
+                    coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+
+                    FinishMission(MissionResultEnum.Success)
+                end)
+            end
+        },
     }
 end

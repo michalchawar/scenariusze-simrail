@@ -69,6 +69,7 @@ function CreateAITrains()
                 function(trainState)
                     trainState:SpawnAt("KZ_K", 15, DynamicState.dsStop, TrainsetState.tsTrain, true)
                     trainState:DisableAutoDespawn()
+                    trainState:DespawnAt("t9759")
 
                     WaitUntilVDReady()
                     SetTrainRoute({ "KZ_K", "KZ_J1Skps", "KO_D", "KO_L", "KO_N9" })
@@ -81,11 +82,15 @@ function CreateAITrains()
                     Log("14002: Finished exchange")
 
                     SetValue("icPoloniaArrived", true)
+
+                    trainState:SetTrainsetState(TrainsetState.tsDeactivation)
                 end,
                 --- @param trainState TrainsetMachineState
                 function(trainState)
+                    trainState:SetTrainsetState(TrainsetState.tsTrain)
+                    
                     coroutine.yield(CoroutineYields.WaitForSeconds, 120)
-                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(6, 04, 55) ) -- DateTimeCreate(2024, 05, 03, 6, 04, 55))
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(6, 03, 55) ) -- DateTimeCreate(2024, 05, 03, 6, 04, 55))
                     SetTrainRoute({"KO_N9", "KO_Skps"})
                 end,
             },
@@ -149,6 +154,21 @@ function CreateAITrains()
                 ---@param trainState TrainsetMachineState
                 function (trainState)
                     trainState:SpawnAt("KO_Tm505", 135, DynamicState.dsDecEmergency, TrainsetState.tsTrain, true, false, false, false, BrakeRegime.RR_Mg)
+                    trainState:DisableAutoDespawn()
+                end
+            }
+        },
+        ["TLK_Free_Carts"] = {
+            {
+                PassengerCars.TLK_2CLASS_GREEN_WITH_SQUARE_WINDOWS,
+                PassengerCars.TLK_2CLASS_GREY_WITH_SQUARE_WINDOWS,
+                PassengerCars.TLK_2CLASS_GREEN_WITH_SQUARE_WINDOWS,
+                PassengerCars.TLK_1CLASS_RED_WAGON_WITH_OVAL_WINDOWS,
+            },
+            {
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    trainState:SpawnAt("KO_F", 10, DynamicState.dsDecEmergency, TrainsetState.tsTrain, true, false, false, false, BrakeRegime.RR_Mg)
                     trainState:DisableAutoDespawn()
                 end
             }

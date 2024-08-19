@@ -6,6 +6,8 @@ Player_Ready_to_start=Kierowniku, tu lokomotywa EU07 gotowa do rozpoczęcia mane
 Player_Gwarek_First_attached=Wagony podpięte, kabina zmieniona, możemy ruszać dalej.
 Player_Gwarek_Second_attached=Podpiąłem wagony, jesteśmy gotowi.
 Player_Odra_attached=Wagony podpięte, możemy ruszać.
+Player_Polonia_ready=Wagony włączone do składu Polonii.
+Player_TLK_Attached=Wagony na haku, możemy jechać.
 
 MM_Gwarek_Start=Przyjąłem mechaniku. Najpierw formujemy skład pasażerski dla IC 48150 Gwarka. Podjeżdżamy za tarczę manewrową Tm506, podpinamy 4 wagony i zmieniamy kabinę. Dyżurny za chwilę poda sygnał. Zgłoś się jak będziesz gotowy.
 MM_Gwarek_First_attached=Wyjeżdżamy za tarczę Tm502, zmieniamy kabinę i wracamy na tor obok po kolejne 3 wagony.
@@ -23,7 +25,7 @@ MM_Gwarek_Done=Odepnij wagony. Zaraz po wyjeździe pociągu InterCity dyżurny p
 
 MM_Odra_Start=Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm29 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
 
-MM_Polonia_Start=Wyjeżdżamy ponownie całym składem za tarczę Tm29 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
+MM_Polonia_Start=Wyjeżdżamy całym składem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
 MM_Polonia_Tm29_20m=Jeszcze z 20 metrów do przodu.
 MM_Polonia_Tm29_0m=Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
 MM_Polonia_Tm29_Signal=Tarcza już świeci, możemy jechać.
@@ -33,4 +35,16 @@ MM_Polonia_10m=10 metrów.
 MM_Polonia_5m=Jeszcze 5.
 MM_Polonia_1m=Metr.
 MM_Polonia_Bumped=Jak dobijesz do zderzaków to zahamuj skład i najpierw odepnij wagony od twojej lokomotywy, a później połącz je ze składem Polonii. Zgłoś się jak skończysz.
-MM_Polonia_Attached=Zaraz dostaniemy sygnał na semaforze, wyjeżdżamy za tarczę Tm22.
+MM_Polonia_Done=Super, pozostało nam tylko rozrządzenie pustych wagonów z peronu 5 na grupę odstawczą. Jedziemy za tarczę Tm1.
+
+MM_TLK_Before_Tm1=Uważaj, niedaleko za tarczą jest wyjazd na szlak. Wyjedź kawałek za tarczę, pozostając w obrębie stacji.
+MM_TLK_Tm1_0m=Wystarczy, zmieniamy kabinę i jedziemy podpiąć wagony. Zgłoś się jak już je podczepisz i zmienisz kabinę.
+MM_TLK_Attached=Jedziemy je odstawić na tor 529, skąd podpinaliśmy wagony do Gwarka. Dam znać, gdzie będzie miejsce do zatrzymania.
+MM_TLK_50m=Jeszcze z 50 metrów do przodu podciągnij i odepnij wagony. Zgłoś się jak będziesz luzem.
+MM_TLK_Done=Na dziś to ostatnia praca. Odstawimy jeszcze lokomotywę na miejsce. Dawaj do przodu i zatrzymaj się za czwartym rozjazdem.
+
+MM_Ending_z231_0m=Wystarczy, możesz zmienić kabinę. Zaraz przełożę rozjazd i wracamy na tor początkowy za tarczę Tm501.
+MM_Ending_Tm501_0m=Dzięki za dziś, wyłącz lokomotywę i jesteś wolny.
+
+Mission_ending_in_15s=Misja automatycznie się zakończy za 15 sekund.
+Mission_ending_in_30s=Misja automatycznie się zakończy za 30 sekund.

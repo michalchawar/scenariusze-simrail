@@ -82,11 +82,12 @@ end
 
 
 --- Structures and functions for managing routes and signals
+-- --@field from     string       Signal, from which the order is issued
+-- --@field to       string       Signal, to which the order is issued
+-- --@field type     VDOrderType  Type of issued order
 
 ---@class OrderStorageEntry
----@field from     string       Signal, from which the order is issued
----@field to       string       Signal, to which the order is issued
----@field type     VDOrderType  Type of issued order
+---@field order    function     Function, that executes the order and returns its orderId (passed from VirtualDispatcher) 
 ---@field callback function|nil Callback to execute when the order gets accepted
 ---@field retry    boolean      Whether to repeat the request every 30 seconds until it gets accepted
 local OrderStorageEntry = {}

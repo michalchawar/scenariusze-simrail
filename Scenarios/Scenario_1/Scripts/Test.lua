@@ -68,3 +68,15 @@ function IC_GWAREK_NEXT_SIGNAL()
 
     Log("Found signal " .. signalName .. " at distance of " .. distanceToSignal)
 end
+
+function TEST_SIGNALS()
+    SetShuntingRoute({"KO_Tm16", "KO_F"}, function ()
+        Log("Udalo sie")
+    end)
+end
+
+function TEST_SWITCHES()
+    SetSwitchPosition("z231", false, function ()
+        Log("Udalo sie")
+    end)
+end

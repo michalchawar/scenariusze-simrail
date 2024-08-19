@@ -32,7 +32,6 @@ ScenarioStory = {
 RegisterValue("scenarioBegun",    false)
 
 RegisterValue("phaseGwarekDone",  false)
-RegisterValue("phaseOdraDone",    false)
 RegisterValue("phasePoloniaDone", false)
 
 RegisterValue("icOdraArrived",    false)
@@ -40,6 +39,7 @@ RegisterValue("icOdraDeparted",   false)
 RegisterValue("icPoloniaArrived", false)
 
 RegisterValue("odraAttached",     false)
+RegisterValue("tlkAttached",      false)
 
 --- Function called by SimRail when the loading of scenario starts - generally
 --- designed for setting up necessery data and preloading-assets
