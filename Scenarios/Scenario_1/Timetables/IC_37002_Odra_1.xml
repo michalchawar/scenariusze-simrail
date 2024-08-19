@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainName>IC</TrainName>
+  <TrainNumber>37002</TrainNumber>
+  <LineNumber>1</LineNumber>
+  <From>Kraków Główny</From>
+  <To>Berlin Hauptbahnhof</To>
+  <WayPoints>
+    <WayPointFromXml>
+      <NameOfPoint>Kraków Główny</NameOfPoint>
+      <DisplayName>Kraków Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice</NameOfPoint>
+      <DisplayName>Katowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wien Hauptbahnhof</NameOfPoint>
+      <DisplayName>Wien Hauptbahnhof</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+  </WayPoints>
+  <StartSpeedLimit>120</StartSpeedLimit>
+  <StartGlobalSpeedLimit>120</StartGlobalSpeedLimit>
+  <StartRadioChannels>
+    <int>2</int>
+  </StartRadioChannels>
+</TimeTableStorage>

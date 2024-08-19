@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainName>IC</TrainName>
+  <TrainNumber>4506</TrainNumber>
+  <LineNumber>1</LineNumber>
+  <From>Bielsko-Biała Główny</From>
+  <To>Gdynia Główna</To>
+  <WayPoints>
+    <WayPointFromXml>
+      <NameOfPoint>Bielsko-Biała Główna</NameOfPoint>
+      <DisplayName>Bielsko-Biała Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Czechowice-Dziedzice</NameOfPoint>
+      <DisplayName>Czechowice-Dziedzice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Pszczyna</NameOfPoint>
+      <DisplayName>Pszczyna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Tychy</NameOfPoint>
+      <DisplayName>Tychy</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice</NameOfPoint>
+      <DisplayName>Katowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sosnowiec Główny</NameOfPoint>
+      <DisplayName>Sosnowiec Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Włoszczowa Północ</NameOfPoint>
+      <DisplayName>Włoszczowa Północ</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Warszawa Zachodnia</NameOfPoint>
+      <DisplayName>Warszawa Zachodnia</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Warszawa Centralna</NameOfPoint>
+      <DisplayName>Warszawa Centralna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Warszawa Wschodnia</NameOfPoint>
+      <DisplayName>Warszawa Wschodnia</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Ciechanów</NameOfPoint>
+      <DisplayName>Ciechanów</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Iława Główna</NameOfPoint>
+      <DisplayName>Iława Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Malbork</NameOfPoint>
+      <DisplayName>Malbork</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Tczew</NameOfPoint>
+      <DisplayName>Tczew</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdańsk Główny</NameOfPoint>
+      <DisplayName>Gdańsk Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdańsk Wrzeszcz</NameOfPoint>
+      <DisplayName>Gdańsk Wrzeszcz</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdańsk Oliwa</NameOfPoint>
+      <DisplayName>Gdańsk Oliwa</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sopot</NameOfPoint>
+      <DisplayName>Sopot</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdynia Główna</NameOfPoint>
+      <DisplayName>Gdynia Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+  </WayPoints>
+  <StartSpeedLimit>160</StartSpeedLimit>
+  <StartGlobalSpeedLimit>160</StartGlobalSpeedLimit>
+  <StartRadioChannels>
+    <int>2</int>
+  </StartRadioChannels>
+</TimeTableStorage>

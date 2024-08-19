@@ -1,0 +1,40 @@
+Test=Test
+MissionIntro1=Today you will drive the TLK 45102 train from Katowice to Gdynia Główna. You take over the train from the previous train driver from the technical platform.
+MissionIntro2=Wait for the replacement of the conductor crew, change the locomotive cabin to prepare the train for withdrawal to the proper platform. When you are ready, call the dispatcher with the ZEW3 command.
+
+Player_are_we_ready=\u003ccolor=green\u003e[You]\u003c/color\u003e We are ready? Can we ask the dispatcher about entering the platform?
+Player_KO=\u003ccolor=green\u003e[You]\u003c/color\u003e Katowice, 45102 here we are ready. Can I ask for the route to the platform.
+Player_copy_common_1=\u003ccolor=green\u003e[You]\u003c/color\u003e 45102 copy, thanks.
+Player_copy_common_2=\u003ccolor=green\u003e[You]\u003c/color\u003e 45102, understood. Thank you.
+
+KO_IC_4506_radio_check=\u003ccolor=#c0c0c0ff\u003e[4506]\u003c/color\u003e Katowice 4506 here. How do you hear me?
+KO_IC_4506_radio_check_thanks=\u003ccolor=#c0c0c0ff\u003e[4506]\u003c/color\u003e Thanks.
+TD_KO_IC_4506_radio_check_ok=\u003ccolor=yellow\u003e[Katowice]\u003c/color\u003e 4506, I hear you well.
+SPl_TLK_16170_radio_check=\u003ccolor=#c0c0c0ff\u003e[16170]\u003c/color\u003e Sosnowiec Główny 16170, here. How do you hear me?
+SPl_TLK_16170_radio_check_thanks=\u003ccolor=#c0c0c0ff\u003e[16170]\u003c/color\u003e Thank you.
+TD_SPl_TLK_16170_radio_check_ok=\u003ccolor=yellow\u003e[Sosnowiec Główny]\u003c/color\u003e 16170, I hear you well.
+Zw_IC_5400_radio_check=\u003ccolor=#c0c0c0ff\u003e[5400]\u003c/color\u003e Zawiercie 5400 here. How can you hear me on channel 2?
+Zw_IC_5400_radio_check_thanks=\u003ccolor=#c0c0c0ff\u003e[5400]\u003c/color\u003e Thanks.
+TD_Zw_IC_5400_radio_check_ok=\u003ccolor=yellow\u003e[Zawiercie]\u003c/color\u003e 5400, I hear you well.
+
+TM_not_ready=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e Not yet. We are waiting for the last wagon to be cleaned and filled with water in the toilet.
+TM_ready=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e Everything is ready. You can as dispatcher for the entry.
+TM_timetable=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e Driver, here you are the timetable.
+TM_departure_call_1=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e 45102, ready to depart.
+TM_departure_call_2=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e Train number 45102, ready to depart.
+TM_departure_call_3=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e Train number 45102, ready to depart.
+TM_departure_call_4=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e 45102, ready to depart.
+TM_departure_call_5=\u003ccolor=orange\u003e[Train Manager]\u003c/color\u003e 45102, ready to depart.
+
+DA_go=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e Driver, the light is shining. Ready to go.
+DA_200m=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e 200 meters to the platform.
+DA_100m=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e 100 meters to the platform.
+DA_done=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e All right! You can stop now, it's okay.
+DA_train_review=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e Perfect! I'm going to inspect the cars.
+DA_train_checked=\u003ccolor=orange\u003e[Pilot]\u003c/color\u003e The cars look fine. Good luck!
+
+KO_shunting_light_ready=\u003ccolor=yellow\u003e[Katowice]\u003c/color\u003e 45102, the route is given. The railroad helper in the back car will tell you when to stop the train.
+
+DG_entry=\u003ccolor=yellow\u003e[Dąbrowa Górnicza]\u003c/color\u003e 45102, a bit late but .. entry is given.
+
+DZ_entry=\u003ccolor=yellow\u003e[Dąbrowa Górnicza Ząbkowice]\u003c/color\u003e 45102, driver, entry given today exceptionally to track 6 at platform 3.

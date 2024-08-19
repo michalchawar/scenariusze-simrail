@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScenarioManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Required_Level>4</Required_Level>
+  <Train_Type>Passenger</Train_Type>
+  <Scenario_Name>SceneryNameText</Scenario_Name>
+  <Train_Engine_Names>
+    <string>4E/EU07-174</string>
+  </Train_Engine_Names>
+  <Train_Car_Names />
+  <Scenario_Start_Time>2024-08-24T05:20:00</Scenario_Start_Time>
+  <Scenario_Lenght>50</Scenario_Lenght>
+  <Difficulty>4</Difficulty>
+  <TrackLenghtInMeters>50000</TrackLenghtInMeters>
+  <SeasonOfTheYear>Summer</SeasonOfTheYear>
+  <HeaderText>HeaderText</HeaderText>
+  <SubHeaderText>SubHeaderText</SubHeaderText>
+  <MapFile>Map.png</MapFile>
+  <MainThumbnailPath>Vehicle.png</MainThumbnailPath>
+  <MiniThumbnailPath1>minithumbnails/minithumbnail1.png</MiniThumbnailPath1>
+  <MiniThumbnailPath2>minithumbnails/minithumbnail2.png</MiniThumbnailPath2>
+  <MiniThumbnailPath3>minithumbnails/minithumbnail3.png</MiniThumbnailPath3>
+  <Description>ScenarioDescription</Description>
+  <MissionFile>bootstrap.lua</MissionFile>
+  <TimeTableFile></TimeTableFile>
+  <CustomTranslations>
+    <CustomTranslation Key="SceneryNameText">
+      <Translations>
+        <CustomTranslationEntry LanguageTag="en">EU07-174</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">EU07-174</CustomTranslationEntry>
+      </Translations>
+    </CustomTranslation>
+        <CustomTranslation Key="HeaderText">
+      <Translations>
+        <CustomTranslationEntry LanguageTag="en">Manouvers in Katowice</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Manewry w Katowicach</CustomTranslationEntry>
+      </Translations>
+    </CustomTranslation>
+        <CustomTranslation Key="SubHeaderText">
+      <Translations>
+        <CustomTranslationEntry LanguageTag="en">Katowice</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Katowice</CustomTranslationEntry>
+      </Translations>
+    </CustomTranslation>
+        <CustomTranslation Key="ScenarioDescription">
+      <Translations>
+        <CustomTranslationEntry LanguageTag="en">You will drive the TLK 45102 train on the Katowice - Gdynia Główna route. You take over the train from the previous driver from the technical platform. \n\nAutor: Budnix</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Poprowadzisz pociąg TLK 45102 relacji Katowice - Gdynia Główna. Obejmujesz skład od poprzedniego maszynisty z peronu technicznego. \n\nAutor: Budnix</CustomTranslationEntry>
+      </Translations>
+    </CustomTranslation>
+  </CustomTranslations>
+</ScenarioManifest>

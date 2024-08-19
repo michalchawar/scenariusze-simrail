@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainName>TLK</TrainName>
+  <TrainNumber>45102</TrainNumber>
+  <LineNumber>1</LineNumber>
+  <From>Katowice</From>
+  <To>Gdynia Główna</To>
+  <WayPoints>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice</NameOfPoint>
+      <DisplayName>Katowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>240</ArrivalTime>
+      <DepartureTime>420</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Zawodzie</NameOfPoint>
+      <DisplayName>Katowice Zawodzie</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>540</ArrivalTime>
+      <DepartureTime>540</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sosnowiec Gł. pzs R52</NameOfPoint>
+      <DisplayName>Sosnowiec Gł. pzs R52</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>840</ArrivalTime>
+      <DepartureTime>840</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sosnowiec Główny</NameOfPoint>
+      <DisplayName>Sosnowiec Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>960</ArrivalTime>
+      <DepartureTime>1080</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Będzin</NameOfPoint>
+      <DisplayName>Będzin</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>1200</ArrivalTime>
+      <DepartureTime>1200</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Dąbrowa Górnicza</NameOfPoint>
+      <DisplayName>Dąbrowa Górnicza</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>1440</ArrivalTime>
+      <DepartureTime>1500</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Dąbrowa Górnicza Ząbkowice</NameOfPoint>
+      <DisplayName>Dąbrowa Górnicza Ząbkowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>1860</ArrivalTime>
+      <DepartureTime>1940</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łazy Łc</NameOfPoint>
+      <DisplayName>Łazy Łc</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>2280</ArrivalTime>
+      <DepartureTime>2280</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łazy</NameOfPoint>
+      <DisplayName>Łazy</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>2340</ArrivalTime>
+      <DepartureTime>2340</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łazy Ła</NameOfPoint>
+      <DisplayName>Łazy Ła</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>2460</ArrivalTime>
+      <DepartureTime>2460</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Zawiercie</NameOfPoint>
+      <DisplayName>Zawiercie</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>2640</ArrivalTime>
+      <DepartureTime>2760</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Częstochowa</NameOfPoint>
+      <DisplayName>Częstochowa</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>4440</ArrivalTime>
+      <DepartureTime>4620</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Piotrków Trybunalski</NameOfPoint>
+      <DisplayName>Piotrków Trybunalski</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>7620</ArrivalTime>
+      <DepartureTime>7680</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łódź Widzew</NameOfPoint>
+      <DisplayName>Łódź Widzew</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>9480</ArrivalTime>
+      <DepartureTime>9660</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Kutno</NameOfPoint>
+      <DisplayName>Kutno</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>14580</ArrivalTime>
+      <DepartureTime>14700</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Płock</NameOfPoint>
+      <DisplayName>Płock</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>16920</ArrivalTime>
+      <DepartureTime>18720</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Jabłonowo Pomorskie</NameOfPoint>
+      <DisplayName>Jabłonowo Pomorskie</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>25320</ArrivalTime>
+      <DepartureTime>26040</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Iława Główna</NameOfPoint>
+      <DisplayName>Iława Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>27600</ArrivalTime>
+      <DepartureTime>27660</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Malbork</NameOfPoint>
+      <DisplayName>Malbork</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>30780</ArrivalTime>
+      <DepartureTime>30840</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Tczew</NameOfPoint>
+      <DisplayName>Tczew</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>31680</ArrivalTime>
+      <DepartureTime>31740</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdańsk Główny</NameOfPoint>
+      <DisplayName>Gdańsk Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>33000</ArrivalTime>
+      <DepartureTime>33120</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sopot</NameOfPoint>
+      <DisplayName>Sopot</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>33660</ArrivalTime>
+      <DepartureTime>33720</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gdynia Główna</NameOfPoint>
+      <DisplayName>Gdynia Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <TrainType>TLK</TrainType>
+      <StationCategory />
+      <ArrivalTime>34260</ArrivalTime>
+      <DepartureTime>34260</DepartureTime>
+    </WayPointFromXml>
+  </WayPoints>
+  <StartSpeedLimit>40</StartSpeedLimit>
+  <StartGlobalSpeedLimit>120</StartGlobalSpeedLimit>
+  <StartRadioChannels>
+    <int>2</int>
+  </StartRadioChannels>
+</TimeTableStorage>

@@ -1,0 +1,20 @@
+Test=Test
+MissionIntro1=Dzisiejszego ranka poprowadzisz manewry na stacji Katowice. Twoja lokomotywa, EP07-174, stoi na torze 40, przed tarczą manewrową Tm45.
+MissionIntro2=Podejdź do niej, uruchom ją i przygotuj do jazdy. Za kilka minut przez radio wywoła cię dyżurny.
+
+Player_Ready_to_start=Kierowniku, tu lokomotywa EU07 gotowa do rozpoczęcia manewrów.
+Player_Gwarek_First_attached=Wagony podpięte, kabina zmieniona, możemy ruszać dalej.
+Player_Gwarek_Second_attached=Podpiąłem wagony, jesteśmy gotowi.
+
+MM_Gwarek_Start=Przyjąłem mechaniku. Najpierw formujemy skład pasażerski dla IC 48150 Gwarka. Podjeżdżamy za tarczę manewrową Tm506, podpinamy 4 wagony i zmieniamy kabinę. Dyżurny za chwilę poda sygnał. Zgłoś się jak będziesz gotowy.
+MM_Gwarek_First_attached=Wyjeżdżamy za tarczę Tm502, zmieniamy kabinę i wracamy na tor obok po kolejne 3 wagony.
+MM_Gwarek_Tm502_20m=Jeszcze z 20 metrów.
+MM_Gwarek_Tm502_0m=Już możemy się zatrzymać.
+MM_Gwarek_Tm502_Signal=Semafor świeci, możemy jechać.
+MM_Gwarek_Second_30m=Jeszcze 30 metrów do wagonów.
+MM_Gwarek_Second_10m=10 metrów.
+MM_Gwarek_Second_5m=5 metrów zostało.
+MM_Gwarek_Second_1m=Jeszcze 1 metr.
+MM_Gwarek_Second_attached=Super, mamy skład uformowany. Jedziemy podstawić wagony na tor 1.
+MM_Gwarek_In_place=Możesz się już zatrzymać mechaniku.
+MM_Gwarek_Done=Odepnij wagony. Zaraz dyżurny poda sygnał i pojedziemy do tarczy Tm65?, zmienimy kabinę i cofniemy na tor 7 przy peronie I.
