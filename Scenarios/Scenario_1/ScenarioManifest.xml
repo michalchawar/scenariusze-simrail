@@ -4,7 +4,7 @@
   <Train_Type>MaintenanceAndRepair</Train_Type>
   <Scenario_Name>SceneryNameText</Scenario_Name>
   <Train_Engine_Names>
-    <string>4E/EU07-174</string>
+    <string>4E/EP07-174</string>
   </Train_Engine_Names>
   <Train_Car_Names />
   <Scenario_Start_Time>2024-08-24T05:17:00</Scenario_Start_Time>
@@ -25,8 +25,8 @@
   <CustomTranslations>
     <CustomTranslation Key="SceneryNameText">
       <Translations>
-        <CustomTranslationEntry LanguageTag="en">EU07-174</CustomTranslationEntry>
-        <CustomTranslationEntry LanguageTag="pl">EU07-174</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="en">EP07-174</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">EP07-174</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
         <CustomTranslation Key="HeaderText">
@@ -43,8 +43,8 @@
     </CustomTranslation>
         <CustomTranslation Key="ScenarioDescription">
       <Translations>
-        <CustomTranslationEntry LanguageTag="en">Summer holidays are ending, at dawn the Katowice station experiences rush hour. Your task is to support InterCity trains with some shunting work. At your disposal you have EU07 loco.</CustomTranslationEntry>
-        <CustomTranslationEntry LanguageTag="pl">Jest końcówka wakacji, o świcie na dworcu w Katowicach panuje intensywny ruch. Twoim zadaniem jest wspomóc pociągi InterCity pracą manewrową. Do dyspozycji otrzymujesz lokomotywę EU07, stojącą na torze bocznym w okręgu nastawczym KO1.</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="en">Summer holidays are ending, at dawn the Katowice station experiences rush hour. Your task is to support InterCity trains with some shunting work. At your disposal you have EP07 loco.</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Jest końcówka wakacji, o świcie na dworcu w Katowicach panuje intensywny ruch. Twoim zadaniem jest wspomóc pociągi InterCity pracą manewrową. Do dyspozycji otrzymujesz lokomotywę EP07, stojącą na torze bocznym w okręgu nastawczym KO1.</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
   </CustomTranslations>

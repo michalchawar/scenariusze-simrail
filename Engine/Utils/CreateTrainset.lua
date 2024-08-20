@@ -49,7 +49,8 @@ function TrainsetMachineState:DisableAutoDespawn() end
 
 --- Sets a despawn trigger for this TrainState; player vehicles and attached trainsets cannot be despawned this way
 ---@param signalOrTrackName string A signal or track name
-function TrainsetMachineState:DespawnAt(signalOrTrackName) end
+---@param distance          integer|nil Default: 100. Distance from signal or position on track, where to despawn the trainset
+function TrainsetMachineState:DespawnAt(signalOrTrackName, distance) end
 
 --- Despawns this TrainState; player vehicles and attached trainsets cannot be despawned this way
 function TrainsetMachineState:Despawn() end
@@ -170,7 +171,7 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
 
             self._disableAutoDespawn = true
         end,
-        DespawnAt = function(self, signalOrTrackName)
+        DespawnAt = function(self, signalOrTrackName, distance)
             local type, ref = GetSignalOrTrackRef(signalOrTrackName);
             local checker = {
                 check = function(trainset)
@@ -183,10 +184,14 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
 
             self:DisableAutoDespawn()
 
+            if distance == nil then
+                distance = 100
+            end
+
             if (type == "track") then
-                CreateTrackTrigger(ref, 100, 0, checker)
+                CreateTrackTrigger(ref, distance, 0, checker)
             elseif (type == "signal") then
-                CreateSignalTrigger(ref, 100, checker)
+                CreateSignalTrigger(ref, distance, checker)
             end
         end,
         Despawn = function(self)

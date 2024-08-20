@@ -40,6 +40,8 @@ Sounds = {
     ['MM_TLK_50m'] = { [Languages.English] = "MM_TLK_50m.mp3" },
     ['MM_TLK_Done'] = { [Languages.English] = "MM_TLK_Done.mp3" },
     
+    ['MM_Speed_warning'] = { [Languages.English] = "MM_Speed_warning.mp3" },
+    
     ['MM_Ending_z231_0m'] = { [Languages.English] = "MM_Ending_z231_0m.mp3" },
     ['MM_Ending_Tm501_0m'] = { [Languages.English] = "MM_Ending_Tm501_0m.mp3" },
 }

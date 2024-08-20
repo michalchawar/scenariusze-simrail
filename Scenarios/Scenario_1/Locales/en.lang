@@ -1,7 +1,7 @@
 MissionIntro1=Dzisiejszego ranka poprowadzisz manewry na stacji Katowice. Twoja lokomotywa, EP07-174, stoi na torze 506, przed tarczą manewrową Tm501.
 MissionIntro2=Podejdź do niej, uruchom ją i przygotuj do jazdy. Jak będziesz gotowy, zgłoś się przez ZEW3 na radiu.
 
-Player_Ready_to_start=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eTu lokomotywa EU07 gotowa do rozpoczęcia manewrów.
+Player_Ready_to_start=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eTu lokomotywa EP07 gotowa do rozpoczęcia manewrów.
 Player_Gwarek_First_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony podpięte, kabina zmieniona, możemy ruszać dalej.
 Player_Gwarek_Second_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003ePodpiąłem wagony, jesteśmy gotowi.
 Player_Odra_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony podpięte, możemy ruszać.

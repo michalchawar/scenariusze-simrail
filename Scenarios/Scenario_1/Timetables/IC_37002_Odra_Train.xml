@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TrainName>IC 37002</TrainName>
+  <TrainName>IC 37002/54</TrainName>
   <TrainNumber>ODRA</TrainNumber>
   <LineNumber>1</LineNumber>
   <From>Kraków Główny</From>
@@ -12,7 +12,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -23,7 +23,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>1080</ArrivalTime>
       <DepartureTime>1380</DepartureTime>
@@ -34,7 +34,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -45,7 +45,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -56,7 +56,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -67,7 +67,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -78,7 +78,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -89,7 +89,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -100,7 +100,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -111,7 +111,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -122,7 +122,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -133,7 +133,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -144,7 +144,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -155,7 +155,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -166,7 +166,7 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>ECE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>

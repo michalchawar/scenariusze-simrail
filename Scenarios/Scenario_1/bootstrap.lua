@@ -45,7 +45,7 @@ RegisterValue("tlkAttached",      false)
 
 ----  STARTING CONFIG  ----
 
-StartPosition = {-9272.38, 265.97, 1498.98}
+StartPosition = {-9272.38, 266.57, 1498.98}
 
 IntroDelays = 15
 ScenarioStory = {

@@ -55,7 +55,9 @@ function InitScenarioStory(scenarioStory)
     end
 
     if (type(scenarioStory.aiTrains) == "table") then
+        Log( 'Trains: ' .. #scenarioStory.aiTrains )
         for k, v in pairs(scenarioStory.aiTrains) do
+            Log(k)
             CreateTrainset(k, v[1], v[2], false)
         end
     end
@@ -162,7 +164,7 @@ function OnVirtualDispatcherResponseReceived(orderId, status)
         -- retry
         CallAsCoroutine(
             function ()
-                coroutine.yield(CoroutineYields.WaitForSeconds, 30)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 15)
             end,
             nil,
             function ()
