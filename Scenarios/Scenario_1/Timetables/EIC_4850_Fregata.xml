@@ -1,179 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TrainName>IC 37002</TrainName>
-  <TrainNumber>ODRA</TrainNumber>
-  <LineNumber>1</LineNumber>
-  <From>Kraków Główny</From>
-  <To>Berlin Hauptbahnhof</To>
+  <TrainName>EIC 4850</TrainName>
+  <TrainNumber>FREGATA</TrainNumber>
+  <LineNumber>0</LineNumber>
+  <From>Katowice</From>
+  <To>Kołobrzeg</To>
   <WayPoints>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Główny</NameOfPoint>
-      <DisplayName>Kraków Główny</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Katowice</NameOfPoint>
       <DisplayName>Katowice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
-      <StationCategory />
-      <ArrivalTime>1080</ArrivalTime>
-      <DepartureTime>1380</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Zabrze</NameOfPoint>
-      <DisplayName>Zabrze</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Gliwice</NameOfPoint>
-      <DisplayName>Gliwice</DisplayName>
+      <NameOfPoint>Sosnowiec Główny</NameOfPoint>
+      <DisplayName>Sosnowiec Główny</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Kędzierzyn-Koźle</NameOfPoint>
-      <DisplayName>Kędzierzyn-Koźle</DisplayName>
+      <NameOfPoint>Dąbrowa Górnicza</NameOfPoint>
+      <DisplayName>Dąbrowa Górnicza</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Opole Główne</NameOfPoint>
-      <DisplayName>Opole Główne</DisplayName>
+      <NameOfPoint>Zawiercie</NameOfPoint>
+      <DisplayName>Zawiercie</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Wrocław Główny</NameOfPoint>
-      <DisplayName>Wrocław Główny</DisplayName>
+      <NameOfPoint>Warszawa Zachodnia</NameOfPoint>
+      <DisplayName>Warszawa Zachodnia</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Legnica</NameOfPoint>
-      <DisplayName>Legnica</DisplayName>
+      <NameOfPoint>Warszawa Centralna</NameOfPoint>
+      <DisplayName>Warszawa Centralna</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Lubin</NameOfPoint>
-      <DisplayName>Lubin</DisplayName>
+      <NameOfPoint>Warszawa Wschodnia</NameOfPoint>
+      <DisplayName>Warszawa Wschodnia</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Głogów</NameOfPoint>
-      <DisplayName>Głogów</DisplayName>
+      <NameOfPoint>Gdańsk Główny</NameOfPoint>
+      <DisplayName>Gdańsk Główny</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Zielona Góra Główna</NameOfPoint>
-      <DisplayName>Zielona Góra Główna</DisplayName>
+      <NameOfPoint>Gdańsk Wrzeszcz</NameOfPoint>
+      <DisplayName>Gdańsk Wrzeszcz</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Rzepin</NameOfPoint>
-      <DisplayName>Rzepin</DisplayName>
+      <NameOfPoint>Gdańsk Oliwa</NameOfPoint>
+      <DisplayName>Gdańsk Oliwa</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Frankfurt/Oder</NameOfPoint>
-      <DisplayName>Frankfurt/Oder</DisplayName>
+      <NameOfPoint>Sopot</NameOfPoint>
+      <DisplayName>Sopot</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Berlin Ostbahnhof</NameOfPoint>
-      <DisplayName>Berlin Ostbahnhof</DisplayName>
+      <NameOfPoint>Gdynia Główna</NameOfPoint>
+      <DisplayName>Gdynia Główna</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Berlin Hauptbahnhof</NameOfPoint>
-      <DisplayName>Berlin Hauptbahnhof</DisplayName>
+      <NameOfPoint>Lębork</NameOfPoint>
+      <DisplayName>Lębork</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>IC</TrainType>
+			<TrainType>EIC</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Słupsk</NameOfPoint>
+      <DisplayName>Słupsk</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+			<TrainType>EIC</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Sławno</NameOfPoint>
+      <DisplayName>Sławno</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+			<TrainType>EIC</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Koszalin</NameOfPoint>
+      <DisplayName>Koszalin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+			<TrainType>EIC</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Ustronie Morskie</NameOfPoint>
+      <DisplayName>Ustronie Morskie</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+			<TrainType>EIC</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Kołobrzeg</NameOfPoint>
+      <DisplayName>Kołobrzeg</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+			<TrainType>EIC</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
   </WayPoints>
-  <StartSpeedLimit>120</StartSpeedLimit>
-  <StartGlobalSpeedLimit>120</StartGlobalSpeedLimit>
+  <StartSpeedLimit>140</StartSpeedLimit>
+  <StartGlobalSpeedLimit>140</StartGlobalSpeedLimit>
   <StartRadioChannels>
     <int>2</int>
   </StartRadioChannels>

@@ -184,7 +184,7 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
             self:DisableAutoDespawn()
 
             if (type == "track") then
-                CreateTrackTrigger(ref, 100, 1, checker)
+                CreateTrackTrigger(ref, 100, 0, checker)
             elseif (type == "signal") then
                 CreateSignalTrigger(ref, 100, checker)
             end

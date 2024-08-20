@@ -19,16 +19,5 @@ function CreateStaticTrains()
                 PassengerCars.TLK_2CLASS_GREEN_WITH_SQUARE_WINDOWS,
             }
         },
-        {
-            "t11398", 33, {
-                CreateRandomCargoCars(8, 1, {
-                    CargoCars.Z424_BLUE,
-                    CargoCars.Z424_BROWN,
-                }, {
-                    CargoLoads_424Z.SHEET_METAL
-                })
-            }
-        },
-
     }
 end

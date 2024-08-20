@@ -5,10 +5,6 @@ function PlayerEvents()
         { "KO_Tm3", 320,
             function()
                 RadioCall("MM_Gwarek_Tm502_20m")
-
-                if (GetPlayerVehicle().vel >= 27) then
-                    RadioCall("speed")
-                end
             end
         },
         { "KO_Tm3", 302,
@@ -27,8 +23,8 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Gwarek_Second_100m")
 
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
+                if (GetPlayerVehicle().vel > 7) then
+                    RadioCall("MM_Speed_warning")
                 end
             end
         },
@@ -36,36 +32,24 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Gwarek_Second_30m")
 
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
+                if (GetPlayerVehicle().vel > 3) then
+                    RadioCall("MM_Speed_warning")
                 end
             end
         },
         { "t27108", 56,
             function()
                 RadioCall("MM_Gwarek_Second_10m")
-
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
             end
         },
         { "t27108", 61,
             function()
                 RadioCall("MM_Gwarek_Second_5m")
-
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
             end
         },
         { "t27108", 65,
             function()
                 RadioCall("MM_Gwarek_Second_1m")
-
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
             end
         },
         { "KO_N1", 129,
@@ -110,13 +94,6 @@ function PlayerEvents()
         { "KO_Tm13", 220,
             function()
                 RadioCall("MM_Polonia_Tm29_20m")
-
-                if (GetPlayerVehicle().vel >= 27) then
-                    RadioCall("speed")
-                end
-
-                -- VDSetManualSignalLightsState("KO_Tm32", SignalLightType.White, LuaSignalLightState.Default)
-                -- VDSetManualSignalLightsState("KO_Tm32", SignalLightType.Blue, LuaSignalLightState.Default)
             end,
             function (trainset)
                 return GetValue("odraAttached") == true
@@ -137,49 +114,43 @@ function PlayerEvents()
                 return GetValue("odraAttached")
             end
         },
-        { "KO_N9", 278,
+        { "KO_N9", 280,
             function()
-                RadioCall("MM_Gwarek_Second_100m")
+                RadioCall("MM_Polonia_100m")
 
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
+                if (GetPlayerVehicle().vel > 7) then
+                    RadioCall("MM_Speed_warning")
                 end
             end
         },
-        { "KO_N9", 208,
+        { "KO_N9", 210,
             function()
-                RadioCall("MM_Gwarek_Second_30m")
+                RadioCall("MM_Polonia_30m")
 
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
+                if (GetPlayerVehicle().vel > 3) then
+                    RadioCall("MM_Speed_warning")
                 end
             end
         },
-        { "KO_N9", 188,
+        { "KO_N9", 190,
             function()
-                RadioCall("MM_Gwarek_Second_10m")
-
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
+                RadioCall("MM_Polonia_10m")
             end
         },
-        { "KO_N9", 183,
+        { "KO_N9", 185,
             function()
-                RadioCall("MM_Gwarek_Second_5m")
-
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
+                RadioCall("MM_Polonia_5m")
             end
         },
-        { "KO_N9", 178,
+        { "KO_N9", 180,
             function()
-                RadioCall("MM_Gwarek_Second_1m")
+                RadioCall("MM_Polonia_1m")
 
-                if (GetPlayerVehicle().vel >= 7) then
-                    RadioCall("speed")
-                end
+                WaitUntil(function ()
+                    return GetPlayerVehicle().vel == 0
+                end)
+
+                RadioCall("MM_Polonia_Bumped")
             end
         },
         { "KO_Tm7", 155,
@@ -202,6 +173,14 @@ function PlayerEvents()
                 SetSwitchPosition("z242", true)
                 SetSwitchPosition("z233", true)
                 SetSwitchPosition("z231", false)
+
+                WaitUntil(function ()
+                    return #GetPlayerTrainset().Vehicles == 1 and GetCameraView() == CameraView.Sitting
+                end)
+
+                SetValue("phaseTLKDone", true)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 3)
+                RadioCall("MM_TLK_Done")
             end,
             function()
                 return GetValue("phasePoloniaDone")
@@ -209,7 +188,7 @@ function PlayerEvents()
         },
         { "t9646", 25,
             function()
-                RadioCall("MM_TLK_Done")
+                RadioCall("MM_Ending_z231_0m")
                 coroutine.yield(CoroutineYields.WaitForSeconds, 5)
                 SetSwitchPosition("z231", true)
                 SetShuntingRoute({"KO_Tm504", "KO_Tm4"})
@@ -220,32 +199,29 @@ function PlayerEvents()
                 RadioCall("MM_Ending_Tm501_0m")
 
                 local playerVehicle = GetPlayerVehicle()
-                coroutine.yield(CoroutineYields.WaitForVehicleStop, playerVehicle())
+                coroutine.yield(CoroutineYields.WaitForVehicleStop, playerVehicle)
+
+                local finish = FinishMission(MissionResultEnum.Success)
 
                 CallAsCoroutine(function ()
-                    WaitUntil(function ()
-                        return playerVehicle.controller.activeCabin == 0
-                           and playerVehicle.controller.direction == 0
-                           and playerVehicle.controller.batteryStatus == false
-                           and playerVehicle.controller.pant1Status == PantographStatus.lowered
-                           and playerVehicle.controller.pant2Status == PantographStatus.lowered
-                           and GetCameraView() == CameraView.FirstPersonWalkingOutside
-                    end)
-
-                    DisplayMessage("Mission_ending_in_15s", 8)
-                    coroutine.yield(CoroutineYields.WaitForSeconds, 15)
-
-                    FinishMission(MissionResultEnum.Success)
-                end)
-
-                CallAsCoroutine(function ()
+                    Log("Starting 135 seconds")
                     coroutine.yield(CoroutineYields.WaitForSeconds, 135)
-
+                    
+                    Log("Displaying message")
                     DisplayMessage("Mission_ending_in_30s", 10)
                     coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+                end, nil, finish)
 
-                    FinishMission(MissionResultEnum.Success)
-                end)
+                CallAsCoroutine(function ()
+                    Log("Waiting for finish")
+                    WaitUntil(function ()
+                           return GetCameraView() == CameraView.FirstPersonWalkingOutside
+                    end)
+
+                    Log("Displaying message")
+                    DisplayMessage("Mission_ending_in_15s", 8)
+                    coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+                end, nil, finish)
             end
         },
     }

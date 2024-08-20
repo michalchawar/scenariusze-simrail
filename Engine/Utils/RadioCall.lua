@@ -1,7 +1,7 @@
 --- Send the voice message throughout the radio
---- @param key string The sound name to play
+--- @param key    string The sound name to play
 --- @param ignoreChannelsCheck boolean | nil If `true` the radio channel will not be checked when trying to play sound
-function RadioCall(key, ignoreChannelsCheck)
+function RadioCall(key, prefix, ignoreChannelsCheck)
     if (ignoreChannelsCheck == nil) then
         ignoreChannelsCheck = false
     end
@@ -9,14 +9,22 @@ function RadioCall(key, ignoreChannelsCheck)
     IncValue("_radioCallWorkingIndex")
     SetValue("_commonRadioCalls", GetValue("_radioCallWorkingIndex"), function()
         -- if not sitting in cabin then return
-        if (
-            GetCameraView() == CameraView.FirstPersonWalkingOutside or
-            GetCameraView() == CameraView.FirstPersonWalkingCar or
-            GetCameraView() == CameraView.FirstPersonWalkingIndoor or
-            (ignoreChannelsCheck == false and GetPlayerTrainset().GetCurrentlyUsedChannel() ~= GetPlayerTrainset().GetIntendedRadioChannel())
-        ) then
-            return
-        end
+        -- if (
+        --     GetCameraView() == CameraView.FirstPersonWalkingOutside or
+        --     GetCameraView() == CameraView.FirstPersonWalkingCar or
+        --     GetCameraView() == CameraView.FirstPersonWalkingIndoor or
+        --     (ignoreChannelsCheck == false and GetPlayerTrainset().GetCurrentlyUsedChannel() ~= GetPlayerTrainset().GetIntendedRadioChannel())
+        -- ) then
+        --     return
+        -- end
+
+        WaitUntil(function ()
+            return 
+                --    GetCameraView() ~= CameraView.FirstPersonWalkingOutside and
+                   GetCameraView() ~= CameraView.FirstPersonWalkingCar and
+                   GetCameraView() ~= CameraView.FirstPersonWalkingIndoor and
+                   not (ignoreChannelsCheck == false and GetPlayerTrainset().GetCurrentlyUsedChannel() ~= GetPlayerTrainset().GetIntendedRadioChannel())
+        end)
 
         DisplayChatText(key)
 

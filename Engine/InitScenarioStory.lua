@@ -177,8 +177,8 @@ function OnVirtualDispatcherResponseReceived(orderId, status)
         if type(orderLog.callback) == "function" then
             -- Log("Calling callback")
             CallAsCoroutine(orderLog.callback, status)
-        else
-            Error("Callback isn't a function")
+        -- else
+        --     Error("Callback isn't a function")
         end
 
         DeleteOrderStorageLog(orderId)

@@ -18,7 +18,7 @@ function CreateAITrains()
             {
                 --- @param trainState TrainsetMachineState
                 function(trainState)
-                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(5, 35, 00) ) --DateTimeCreate(2024, 05, 03, 5, 35, 00))
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(5, 34, 30) ) --DateTimeCreate(2024, 05, 03, 5, 35, 00))
                     trainState:NextState()
                 end,
                 --- @param trainState TrainsetMachineState
@@ -124,7 +124,7 @@ function CreateAITrains()
                     
                     JoinTrainStates("IC_48150_Gwarek_Train", "IC_48150_Gwarek_2", TrainsetState.tsTrain)
 
-                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(6, 07, 55) ) -- DateTimeCreate(2024, 05, 03, 6, 07, 55))
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(6, 05, 35) ) -- DateTimeCreate(2024, 05, 03, 6, 07, 55))
                     SetTrainRoute({"KO_N1", "KO_Skps"})
                 end,
             }
@@ -139,7 +139,7 @@ function CreateAITrains()
             {
                 ---@param trainState TrainsetMachineState
                 function (trainState)
-                    trainState:SpawnAt("KO_Tm506", 30, DynamicState.dsDecEmergency, TrainsetState.tsTrain, true, false, false, false, BrakeRegime.RR_Mg)
+                    trainState:SpawnAt("KO_Tm506", 30, DynamicState.dsDecEmergency, TrainsetState.tsDeactivation, true, false, false, false, BrakeRegime.RR_Mg)
                     trainState:DisableAutoDespawn()
                 end
             }
@@ -153,7 +153,7 @@ function CreateAITrains()
             {
                 ---@param trainState TrainsetMachineState
                 function (trainState)
-                    trainState:SpawnAt("KO_Tm505", 135, DynamicState.dsDecEmergency, TrainsetState.tsTrain, true, false, false, false, BrakeRegime.RR_Mg)
+                    trainState:SpawnAt("KO_Tm505", 135, DynamicState.dsDecEmergency, TrainsetState.tsDeactivation, true, false, false, false, BrakeRegime.RR_Mg)
                     trainState:DisableAutoDespawn()
                 end
             }
@@ -168,9 +168,98 @@ function CreateAITrains()
             {
                 ---@param trainState TrainsetMachineState
                 function (trainState)
-                    trainState:SpawnAt("KO_F", 10, DynamicState.dsDecEmergency, TrainsetState.tsTrain, true, false, false, false, BrakeRegime.RR_Mg)
+                    trainState:SpawnAt("KO_F", 10, DynamicState.dsDecEmergency, TrainsetState.tsDeactivation, true, false, false, false, BrakeRegime.RR_Mg)
                     trainState:DisableAutoDespawn()
                 end
+            }
+        },
+
+        --- FULLY AI CONTROLLED TRAINS FOR AMBIENT TRAFFIC ---
+
+        ["EN76_Shunting_at_start"] = {
+            {
+                EZT.ELF_EN76_006_KS,
+                EZT.ELF_EN76_006_KS
+            },
+            {
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    trainState:SpawnAt("KO_Tm504", 35, DynamicState.dsStop, TrainsetState.tsShunting)
+                    trainState:DisableAutoDespawn()
+                    trainState:DespawnAt("KO_G14")
+
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime( CreateScenarioTimeStamp( 05, 17, 30 ) ))
+                    WaitUntilVDReady()
+                    SetShuntingRoute({"KO_Tm504", "KO_Tm3", "KO_G14"})
+                end,
+            }
+        },
+        ["EIC_4850_Fregata"] = {
+            {
+                Locomotives.EP08_013,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_2,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_3,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_1,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_2,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_1,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_3,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_2,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_1,
+                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_2,
+                PassengerCars.IC_WARS,
+                PassengerCars.IC_1CLASS_IC_VARIANT_2,
+                PassengerCars.IC_1CLASS_IC_VARIANT_1,
+            },
+            {
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    trainState:SpawnAt("KO_E16", 35, DynamicState.dsStop, TrainsetState.tsTrain)
+                    trainState:DisableAutoDespawn()
+                    trainState:DespawnAt("t8572")
+
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime( CreateScenarioTimeStamp( 05, 19, 00 ) ))
+                    WaitUntilVDReady()
+                    SetTrainRoute({"KO_E16", "KO_Ckps", "KZ_O", "KZ_D2"})
+                end,
+            }
+        },
+        ["Os_43452"] = {
+            {
+                EZT.ELF_EN76_006_KS
+            },
+            {
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    trainState:SpawnAt("KO_E18", 35, DynamicState.dsStop, TrainsetState.tsTrain)
+                    trainState:DisableAutoDespawn()
+                    trainState:DespawnAt("t8693")
+
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime( CreateScenarioTimeStamp( 05, 23, 30 ) ))
+                    WaitUntilVDReady()
+                    SetTrainRoute({"KO_E18", "KO_Akps", "KZ_P", "KZ_E"})
+                end,
+            }
+        },
+        ["Pr_34300"] = {
+            {
+                EZT.EN57_1219
+            },
+            {
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime( CreateScenarioTimeStamp( 05, 28, 00 ) ))
+                    
+                    trainState:SpawnAt("KZ_M", 10, DynamicState.dsStop, TrainsetState.tsTrain)
+                    trainState:DisableAutoDespawn()
+                    trainState:DespawnAt("t9855")
+
+                    SetTrainRoute({"KZ_Mkps", "KZ_P1Mkps", "KO_B", "KO_G16", "KO_N10"})
+                end,
+                ---@param trainState TrainsetMachineState
+                function (trainState)
+                    trainState:SetTrainsetState(TrainsetState.tsShunting)
+                    SetShuntingRoute({"KO_N10", "KO_Pkps"})
+                end,
             }
         },
     }

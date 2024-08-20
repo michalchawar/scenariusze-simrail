@@ -3,7 +3,6 @@ require("SimRailCore")
 ---@param func function Function to delegate the coroutine
 ---@param arg any | nil argument to pass to the function
 ---@param endCallback function | nil The function to call after the corouted function finishes its call
---- the function to call after the corouted function finishes its call
 function CallAsCoroutine(func, arg, endCallback)
     CreateCoroutine(function()
         

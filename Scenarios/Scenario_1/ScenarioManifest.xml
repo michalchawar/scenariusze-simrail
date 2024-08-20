@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScenarioManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Required_Level>4</Required_Level>
-  <Train_Type>Passenger</Train_Type>
+  <Required_Level>1</Required_Level>
+  <Train_Type>MaintenanceAndRepair</Train_Type>
   <Scenario_Name>SceneryNameText</Scenario_Name>
   <Train_Engine_Names>
     <string>4E/EU07-174</string>
   </Train_Engine_Names>
   <Train_Car_Names />
-  <Scenario_Start_Time>2024-08-24T05:20:00</Scenario_Start_Time>
-  <Scenario_Lenght>50</Scenario_Lenght>
-  <Difficulty>4</Difficulty>
-  <TrackLenghtInMeters>50000</TrackLenghtInMeters>
+  <Scenario_Start_Time>2024-08-24T05:17:00</Scenario_Start_Time>
+  <Scenario_Lenght>70</Scenario_Lenght>
+  <Difficulty>3</Difficulty>
+  <TrackLenghtInMeters>10000</TrackLenghtInMeters>
   <SeasonOfTheYear>Summer</SeasonOfTheYear>
   <HeaderText>HeaderText</HeaderText>
   <SubHeaderText>SubHeaderText</SubHeaderText>
-  <MapFile>Map.png</MapFile>
+  <MapFile>Main.jpg</MapFile>
   <MainThumbnailPath>Vehicle.png</MainThumbnailPath>
-  <MiniThumbnailPath1>minithumbnails/minithumbnail1.png</MiniThumbnailPath1>
-  <MiniThumbnailPath2>minithumbnails/minithumbnail2.png</MiniThumbnailPath2>
-  <MiniThumbnailPath3>minithumbnails/minithumbnail3.png</MiniThumbnailPath3>
+  <MiniThumbnailPath1>minithumbnails/thumbnail1.jpg</MiniThumbnailPath1>
+  <MiniThumbnailPath2>minithumbnails/thumbnail2.jpg</MiniThumbnailPath2>
+  <MiniThumbnailPath3>minithumbnails/thumbnail3.jpg</MiniThumbnailPath3>
   <Description>ScenarioDescription</Description>
   <MissionFile>bootstrap.lua</MissionFile>
   <TimeTableFile></TimeTableFile>
@@ -37,14 +37,14 @@
     </CustomTranslation>
         <CustomTranslation Key="SubHeaderText">
       <Translations>
-        <CustomTranslationEntry LanguageTag="en">Katowice</CustomTranslationEntry>
-        <CustomTranslationEntry LanguageTag="pl">Katowice</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="en">Katowice - KO1, KO</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Katowice - KO1, KO</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
         <CustomTranslation Key="ScenarioDescription">
       <Translations>
-        <CustomTranslationEntry LanguageTag="en">You will drive the TLK 45102 train on the Katowice - Gdynia Główna route. You take over the train from the previous driver from the technical platform. \n\nAutor: Budnix</CustomTranslationEntry>
-        <CustomTranslationEntry LanguageTag="pl">Poprowadzisz pociąg TLK 45102 relacji Katowice - Gdynia Główna. Obejmujesz skład od poprzedniego maszynisty z peronu technicznego. \n\nAutor: Budnix</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="en">Summer holidays are ending, at dawn the Katowice station experiences rush hour. Your task is to support InterCity trains with some shunting work. At your disposal you have EU07 loco.</CustomTranslationEntry>
+        <CustomTranslationEntry LanguageTag="pl">Jest końcówka wakacji, o świcie na dworcu w Katowicach panuje intensywny ruch. Twoim zadaniem jest wspomóc pociągi InterCity pracą manewrową. Do dyspozycji otrzymujesz lokomotywę EU07, stojącą na torze bocznym w okręgu nastawczym KO1.</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
   </CustomTranslations>
