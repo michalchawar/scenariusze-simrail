@@ -25,9 +25,9 @@ MM_Gwarek_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Odepnij wagony. Za
 MM_Odra_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm29 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
 
 MM_Polonia_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wyjeżdżamy całym składem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
-MM_Polonia_Tm29_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze z 20 metrów do przodu.
-MM_Polonia_Tm29_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
-MM_Polonia_Tm29_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Tarcza już świeci, możemy jechać.
+MM_Polonia_Tm21_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze z 20 metrów do przodu.
+MM_Polonia_Tm21_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
+MM_Polonia_Tm21_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Tarcza już świeci, możemy jechać.
 MM_Polonia_100m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Do wagonów mamy 100 metrów.
 MM_Polonia_30m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Około 30 metrów.
 MM_Polonia_10m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 10 metrów.

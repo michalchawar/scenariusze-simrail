@@ -1,256 +1,311 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TrainName>PR</TrainName>
-  <TrainNumber>R 34301</TrainNumber>
+  <TrainName>KS</TrainName>
+  <TrainNumber>44807/2961 (Os) S71</TrainNumber>
   <LineNumber>0</LineNumber>
-  <From>Kraków Płaszów</From>
-  <To>Katowice</To>
+  <From>Katowice</From>
+  <To>Bohumin</To>
   <WayPoints>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Płaszów</NameOfPoint>
-      <DisplayName>Kraków Płaszów</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Zabłocie</NameOfPoint>
-      <DisplayName>Kraków Zabłocie</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Grzegórzki</NameOfPoint>
-      <DisplayName>Kraków Grzegórzki</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Główny</NameOfPoint>
-      <DisplayName>Kraków Główny</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Łobzów</NameOfPoint>
-      <DisplayName>Kraków Łobzów</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Bronowice</NameOfPoint>
-      <DisplayName>Kraków Bronowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Mydlniki</NameOfPoint>
-      <DisplayName>Kraków Mydlniki</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Kraków Mydlniki Wapiennik</NameOfPoint>
-      <DisplayName>Kraków Mydlniki Wapiennik</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Zabierzów Rząska</NameOfPoint>
-      <DisplayName>Zabierzów Rząska</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Zabierzów</NameOfPoint>
-      <DisplayName>Zabierzów</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Rudawa</NameOfPoint>
-      <DisplayName>Rudawa</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Krzeszowice</NameOfPoint>
-      <DisplayName>Krzeszowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Wola Filipowska</NameOfPoint>
-      <DisplayName>Wola Filipowska</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Dulowa</NameOfPoint>
-      <DisplayName>Dulowa</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Trzebinia</NameOfPoint>
-      <DisplayName>Trzebinia</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Balin</NameOfPoint>
-      <DisplayName>Balin</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Jaworzno Ciężkowice</NameOfPoint>
-      <DisplayName>Jaworzno Ciężkowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Jaworzno Szczakowa</NameOfPoint>
-      <DisplayName>Jaworzno Szczakowa</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Mysłowice</NameOfPoint>
-      <DisplayName>Mysłowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Katowice Szopienice Południowe</NameOfPoint>
-      <DisplayName>Katowice Szopienice Południowe</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Katowice Zawodzie</NameOfPoint>
-      <DisplayName>Katowice Zawodzie</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Katowice</NameOfPoint>
       <DisplayName>Katowice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
+	    <TrainType>RMJ</TrainType>
       <StationCategory />
-      <ArrivalTime>960</ArrivalTime>
-      <DepartureTime>1420</DepartureTime>
+      <ArrivalTime>3600</ArrivalTime>
+      <DepartureTime>3720</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Brynów</NameOfPoint>
+      <DisplayName>Katowice Brynów</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Ligota</NameOfPoint>
+      <DisplayName>Katowice Ligota</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Piotrowice</NameOfPoint>
+      <DisplayName>Katowice Piotrowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mikołów Jamna</NameOfPoint>
+      <DisplayName>Mikołów Jamna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mikołów</NameOfPoint>
+      <DisplayName>Mikołów</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łaziska Górne</NameOfPoint>
+      <DisplayName>Łaziska Górne</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Łaziska Górne Brada</NameOfPoint>
+      <DisplayName>Łaziska Górne Brada</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Orzesze</NameOfPoint>
+      <DisplayName>Orzesze</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Orzesze Jaśkowice</NameOfPoint>
+      <DisplayName>Orzesze Jaśkowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Czerwionka</NameOfPoint>
+      <DisplayName>Czerwionka</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Czerwionka Dębieńsko</NameOfPoint>
+      <DisplayName>Czerwionka Dębieńsko</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Leszczyny</NameOfPoint>
+      <DisplayName>Leszczyny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rybnik Paruszowiec</NameOfPoint>
+      <DisplayName>Rybnik Paruszowiec</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rybnik</NameOfPoint>
+      <DisplayName>Rybnik</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rybnik Towarowy</NameOfPoint>
+      <DisplayName>Rybnik Towarowy</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rybnik Rymer</NameOfPoint>
+      <DisplayName>Rybnik Rymer</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Radlin Obszary</NameOfPoint>
+      <DisplayName>Radlin Obszary</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wodzisław Śląski Radlin</NameOfPoint>
+      <DisplayName>Wodzisław Śląski Radlin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wodzisław Śląski</NameOfPoint>
+      <DisplayName>Wodzisław Śląski</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wodzisław Śląski Centrum</NameOfPoint>
+      <DisplayName>Wodzisław Śląski Centrum</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Czyżowice</NameOfPoint>
+      <DisplayName>Czyżowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Bełsznica</NameOfPoint>
+      <DisplayName>Bełsznica</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Olza</NameOfPoint>
+      <DisplayName>Olza</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rudyszwałd</NameOfPoint>
+      <DisplayName>Rudyszwałd</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Chałupki</NameOfPoint>
+      <DisplayName>Chałupki</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Bohumin</NameOfPoint>
+      <DisplayName>Bohumin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>RMJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
   </WayPoints>
-  <StartSpeedLimit>110</StartSpeedLimit>
-  <StartGlobalSpeedLimit>110</StartGlobalSpeedLimit>
+  <StartSpeedLimit>160</StartSpeedLimit>
+  <StartGlobalSpeedLimit>160</StartGlobalSpeedLimit>
   <StartRadioChannels>
     <int>2</int>
   </StartRadioChannels>

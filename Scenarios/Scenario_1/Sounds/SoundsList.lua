@@ -23,9 +23,9 @@ Sounds = {
     ['MM_Odra_Start'] = { [Languages.English] = "MM_Odra_Start.mp3" },
     
     ['MM_Polonia_Start'] = { [Languages.English] = "MM_Polonia_Start.mp3" },
-    ['MM_Polonia_Tm29_20m'] = { [Languages.English] = "MM_Polonia_Tm29_20m.mp3" },
-    ['MM_Polonia_Tm29_0m'] = { [Languages.English] = "MM_Polonia_Tm29_0m.mp3" },
-    ['MM_Polonia_Tm29_Signal'] = { [Languages.English] = "MM_Polonia_Tm29_Signal.mp3" },
+    ['MM_Polonia_Tm21_20m'] = { [Languages.English] = "MM_Polonia_Tm21_20m.mp3" },
+    ['MM_Polonia_Tm21_0m'] = { [Languages.English] = "MM_Polonia_Tm21_0m.mp3" },
+    ['MM_Polonia_Tm21_Signal'] = { [Languages.English] = "MM_Polonia_Tm21_Signal.mp3" },
     ['MM_Polonia_100m'] = { [Languages.English] = "MM_Polonia_100m.mp3" },
     ['MM_Polonia_30m'] = { [Languages.English] = "MM_Polonia_30m.mp3" },
     ['MM_Polonia_10m'] = { [Languages.English] = "MM_Polonia_10m.mp3" },

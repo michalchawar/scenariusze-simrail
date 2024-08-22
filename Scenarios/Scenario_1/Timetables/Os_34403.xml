@@ -1,106 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TrainName>KS</TrainName>
-  <TrainNumber>43452 (Os) S31</TrainNumber>
+  <TrainNumber>34403 (Os) S31</TrainNumber>
   <LineNumber>0</LineNumber>
-  <From>Katowice</From>
-  <To>Oświęcim</To>
+  <From>Oświęcim</From>
+  <To>Katowice</To>
   <WayPoints>
     <WayPointFromXml>
-      <NameOfPoint>Katowice</NameOfPoint>
-      <DisplayName>Katowice</DisplayName>
+      <NameOfPoint>Oświęcim</NameOfPoint>
+      <DisplayName>Oświęcim</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Katowice Zawodzie</NameOfPoint>
-      <DisplayName>Katowice Zawodzie</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Katowice Szopienice Południowe</NameOfPoint>
-      <DisplayName>Katowice Szopienice Południowe</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Mysłowice</NameOfPoint>
-      <DisplayName>Mysłowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Mysłowice Brzęczkowice</NameOfPoint>
-      <DisplayName>Mysłowice Brzęczkowice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Mysłowice Brzezinka</NameOfPoint>
-      <DisplayName>Mysłowice Brzezinka</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Mysłowice Kosztowy</NameOfPoint>
-      <DisplayName>Mysłowice Kosztowy</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Imielin</NameOfPoint>
-      <DisplayName>Imielin</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Chełm Śląski</NameOfPoint>
-      <DisplayName>Chełm Śląski</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
+	    <TrainType>MOJ</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -111,24 +23,112 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
+	    <TrainType>MOJ</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Oświęcim</NameOfPoint>
-      <DisplayName>Oświęcim</DisplayName>
+      <NameOfPoint>Chełm Śląski</NameOfPoint>
+      <DisplayName>Chełm Śląski</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-			<TrainType>MOJ</TrainType>
+	    <TrainType>MOJ</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Imielin</NameOfPoint>
+      <DisplayName>Imielin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mysłowice Kosztowy</NameOfPoint>
+      <DisplayName>Mysłowice Kosztowy</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mysłowice Brzezinka</NameOfPoint>
+      <DisplayName>Mysłowice Brzezinka</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mysłowice Brzęczkowice</NameOfPoint>
+      <DisplayName>Mysłowice Brzęczkowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Mysłowice</NameOfPoint>
+      <DisplayName>Mysłowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Szopienice Południowe</NameOfPoint>
+      <DisplayName>Katowice Szopienice Południowe</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice Zawodzie</NameOfPoint>
+      <DisplayName>Katowice Zawodzie</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Katowice</NameOfPoint>
+      <DisplayName>Katowice</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>MOJ</TrainType>
+      <StationCategory />
+      <ArrivalTime>3780</ArrivalTime>
+      <DepartureTime>4000</DepartureTime>
+    </WayPointFromXml>
   </WayPoints>
-  <StartSpeedLimit>100</StartSpeedLimit>
+  <StartSpeedLimit>160</StartSpeedLimit>
   <StartGlobalSpeedLimit>160</StartGlobalSpeedLimit>
   <StartRadioChannels>
     <int>2</int>

@@ -1,10 +1,14 @@
 ---@param signals table<string>              The table with signals as string
 ---@param callback? function|nil             A callback to call when VD responds to request. It accepts VDResponseCode object as argument.
+---@param sequential? boolean|nil            Default: true. Whether to request subroutes one by one, only when the previous gets accepted.
 ---@param repeatUntilSuccessful? boolean|nil Default: true. Whether to repeat the request every 30 seconds until it gets accepted.
 ---@return integer|nil
-function SetTrainRoute(signals, callback, repeatUntilSuccessful)
+function SetTrainRoute(signals, callback, sequential, repeatUntilSuccessful)
     if repeatUntilSuccessful == nil then
         repeatUntilSuccessful = true
+    end
+    if sequential == nil then
+        sequential = true
     end
 
     local callbackFirstIteration = callback
@@ -16,7 +20,7 @@ function SetTrainRoute(signals, callback, repeatUntilSuccessful)
     for k, nextSignal in pairs(signals) do
         local prevSignal = prev
 
-        if (k > 1 and prevSignal ~= nil) then
+        if (not sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
                 Log(prevSignal .. " => " .. nextSignal .. " [T]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.TrainRoute)
@@ -26,9 +30,6 @@ function SetTrainRoute(signals, callback, repeatUntilSuccessful)
             AddOrderStorageLog(
                 orderId, 
                 {
-                    -- from     = prevSignal,
-                    -- to       = nextSignal,
-                    -- type     = VDOrderType.ManeuverRoute,
                     order    = order,
                     callback = callbackFirstIteration,
                     retry    = repeatUntilSuccessful
@@ -36,6 +37,31 @@ function SetTrainRoute(signals, callback, repeatUntilSuccessful)
             )
 
             callbackFirstIteration = nil
+        elseif (sequential and k > 1 and prevSignal ~= nil) then
+            order = function ()
+                Log(prevSignal .. " => " .. nextSignal .. " [T, S]")
+                return VDSetRoute(prevSignal, nextSignal, VDOrderType.TrainRoute)
+            end
+            orderId = order()
+
+            AddOrderStorageLog(
+                orderId, 
+                {
+                    order    = order,
+                    callback = function ()
+                        if type(callbackFirstIteration) == "function" then
+                            callbackFirstIteration() 
+                        end
+
+                        local t1, t2 = table.split(signals, k - 1)
+
+                        SetTrainRoute(t2, nil, true, repeatUntilSuccessful)
+                    end,
+                    retry    = repeatUntilSuccessful
+                }
+            )
+
+            break
         end
 
         if (string.match(nextSignal, "kps$") == nil) then
@@ -50,11 +76,15 @@ end
 
 ---@param signals table<string>              The table with signals as string
 ---@param callback? function|nil             A callback to call when VD responds to request. It accepts VDResponseCode object as argument.
+---@param sequential? boolean|nil            Default: true. Whether to request subroutes one by one, only when the previous gets accepted.
 ---@param repeatUntilSuccessful? boolean|nil Default: true. Whether to repeat the request every 30 seconds until it gets accepted.
 ---@return integer|nil
-function SetShuntingRoute(signals, callback, repeatUntilSuccessful)
+function SetShuntingRoute(signals, callback, sequential, repeatUntilSuccessful)
     if repeatUntilSuccessful == nil then
         repeatUntilSuccessful = true
+    end
+    if sequential == nil then
+        sequential = true
     end
 
     local callbackFirstIteration = callback
@@ -66,7 +96,7 @@ function SetShuntingRoute(signals, callback, repeatUntilSuccessful)
     for k, nextSignal in pairs(signals) do
         local prevSignal = prev
 
-        if (k > 1 and prevSignal ~= nil) then
+        if (not sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
                 Log(prevSignal .. " => " .. nextSignal .. " [M]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.ManeuverRoute)
@@ -76,9 +106,6 @@ function SetShuntingRoute(signals, callback, repeatUntilSuccessful)
             AddOrderStorageLog(
                 orderId, 
                 {
-                    -- from     = prevSignal,
-                    -- to       = nextSignal,
-                    -- type     = VDOrderType.ManeuverRoute,
                     order    = order,
                     callback = callbackFirstIteration,
                     retry    = repeatUntilSuccessful
@@ -86,6 +113,31 @@ function SetShuntingRoute(signals, callback, repeatUntilSuccessful)
             )
 
             callbackFirstIteration = nil
+        elseif (sequential and k > 1 and prevSignal ~= nil) then
+            order = function ()
+                Log(prevSignal .. " => " .. nextSignal .. " [M, S]")
+                return VDSetRoute(prevSignal, nextSignal, VDOrderType.ManeuverRoute)
+            end
+            orderId = order()
+
+            AddOrderStorageLog(
+                orderId, 
+                {
+                    order    = order,
+                    callback = function ()
+                        if type(callbackFirstIteration) == "function" then
+                            callbackFirstIteration() 
+                        end
+
+                        local t1, t2 = table.split(signals, k - 1)
+
+                        SetShuntingRoute(t2, nil, true, repeatUntilSuccessful)
+                    end,
+                    retry    = repeatUntilSuccessful
+                }
+            )
+
+            break
         end
 
         if (string.match(nextSignal, "kps$") == nil) then

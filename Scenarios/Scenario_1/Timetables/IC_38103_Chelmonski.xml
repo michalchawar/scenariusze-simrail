@@ -1,216 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TrainName>TLK 54070/402</TrainName>
-  <TrainNumber>WYDMY</TrainNumber>
+  <TrainName>IC 38103</TrainName>
+  <TrainNumber>CHEŁMOŃSKI</TrainNumber>
   <LineNumber>0</LineNumber>
-  <From>Łeba</From>
-  <To>Bohumin</To>
+  <From>Kraków Główny</From>
+  <To>Świnoujście</To>
   <WayPoints>
     <WayPointFromXml>
-      <NameOfPoint>Łeba</NameOfPoint>
-      <DisplayName>Łeba</DisplayName>
+      <NameOfPoint>Kraków Główny</NameOfPoint>
+      <DisplayName>Kraków Główny</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Lębork</NameOfPoint>
-      <DisplayName>Lębork</DisplayName>
+      <NameOfPoint>Krzeszowice</NameOfPoint>
+      <DisplayName>Krzeszowice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Wejherowo</NameOfPoint>
-      <DisplayName>Wejherowo</DisplayName>
+      <NameOfPoint>Trzebinia</NameOfPoint>
+      <DisplayName>Trzebinia</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Rumia</NameOfPoint>
-      <DisplayName>Rumia</DisplayName>
+      <NameOfPoint>Jaworzno Szczakowa</NameOfPoint>
+      <DisplayName>Jaworzno Szczakowa</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Gdynia Główna</NameOfPoint>
-      <DisplayName>Gdynia Główna</DisplayName>
+      <NameOfPoint>Mysłowice</NameOfPoint>
+      <DisplayName>Mysłowice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Sopot</NameOfPoint>
-      <DisplayName>Sopot</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Gdańsk Oliwa</NameOfPoint>
-      <DisplayName>Gdańsk Oliwa</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Gdańsk Wrzeszcz</NameOfPoint>
-      <DisplayName>Gdańsk Wrzeszcz</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Gdańsk Główny</NameOfPoint>
-      <DisplayName>Gdańsk Główny</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Tczew</NameOfPoint>
-      <DisplayName>Tczew</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Laskowice Pomorskie</NameOfPoint>
-      <DisplayName>Laskowice Pomorskie</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Bydgoszcz Główna</NameOfPoint>
-      <DisplayName>Bydgoszcz Główna</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Inowrocław</NameOfPoint>
-      <DisplayName>Inowrocław</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Zduńska Wola Karsznice</NameOfPoint>
-      <DisplayName>Zduńska Wola Karsznice</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Częstochowa</NameOfPoint>
-      <DisplayName>Częstochowa</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Myszków</NameOfPoint>
-      <DisplayName>Myszków</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Zawiercie</NameOfPoint>
-      <DisplayName>Zawiercie</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Dąbrowa Górnicza</NameOfPoint>
-      <DisplayName>Dąbrowa Górnicza</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
-      <StationCategory />
-      <ArrivalTime>0</ArrivalTime>
-      <DepartureTime>0</DepartureTime>
-    </WayPointFromXml>
-    <WayPointFromXml>
-      <NameOfPoint>Sosnowiec Główny</NameOfPoint>
-      <DisplayName>Sosnowiec Główny</DisplayName>
-      <StopType>commercialStop</StopType>
-      <Line>0</Line>
-      <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
@@ -221,62 +67,282 @@
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>1920</ArrivalTime>
+      <DepartureTime>2460</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Zabrze</NameOfPoint>
+      <DisplayName>Zabrze</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Tychy</NameOfPoint>
-      <DisplayName>Tychy</DisplayName>
+      <NameOfPoint>Gliwice</NameOfPoint>
+      <DisplayName>Gliwice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Rybnik</NameOfPoint>
-      <DisplayName>Rybnik</DisplayName>
+      <NameOfPoint>Kędzierzyn-Koźle</NameOfPoint>
+      <DisplayName>Kędzierzyn-Koźle</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Racibórz</NameOfPoint>
-      <DisplayName>Racibórz</DisplayName>
+      <NameOfPoint>Zdzieszowice</NameOfPoint>
+      <DisplayName>Zdzieszowice</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Chałupki</NameOfPoint>
-      <DisplayName>Chałupki</DisplayName>
+      <NameOfPoint>Gogolin</NameOfPoint>
+      <DisplayName>Gogolin</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
-      <NameOfPoint>Bohumin</NameOfPoint>
-      <DisplayName>Bohumin</DisplayName>
+      <NameOfPoint>Opole Główne</NameOfPoint>
+      <DisplayName>Opole Główne</DisplayName>
       <StopType>commercialStop</StopType>
       <Line>0</Line>
       <Mileage>0</Mileage>
-	    <TrainType>MME</TrainType>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Brzeg</NameOfPoint>
+      <DisplayName>Brzeg</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Oława</NameOfPoint>
+      <DisplayName>Oława</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wrocław Główny</NameOfPoint>
+      <DisplayName>Wrocław Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Legnica</NameOfPoint>
+      <DisplayName>Legnica</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Lubin</NameOfPoint>
+      <DisplayName>Lubin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Głogów</NameOfPoint>
+      <DisplayName>Głogów</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Bytom Odrzański</NameOfPoint>
+      <DisplayName>Bytom Odrzański</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Nowa Sól</NameOfPoint>
+      <DisplayName>Nowa Sól</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Zielona Góra Główna</NameOfPoint>
+      <DisplayName>Zielona Góra Główna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Rzepin</NameOfPoint>
+      <DisplayName>Rzepin</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Kostrzyn</NameOfPoint>
+      <DisplayName>Kostrzyn</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Chojna</NameOfPoint>
+      <DisplayName>Chojna</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Gryfino</NameOfPoint>
+      <DisplayName>Gryfino</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Szczecin Główny</NameOfPoint>
+      <DisplayName>Szczecin Główny</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Szczecin Dąbie</NameOfPoint>
+      <DisplayName>Szczecin Dąbie</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Goleniów</NameOfPoint>
+      <DisplayName>Goleniów</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Wysoka Kamieńska</NameOfPoint>
+      <DisplayName>Wysoka Kamieńska</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Międzyzdroje</NameOfPoint>
+      <DisplayName>Międzyzdroje</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>Świnoujście</NameOfPoint>
+      <DisplayName>Świnoujście</DisplayName>
+      <StopType>commercialStop</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+	    <TrainType>EIE</TrainType>
       <StationCategory />
       <ArrivalTime>0</ArrivalTime>
       <DepartureTime>0</DepartureTime>

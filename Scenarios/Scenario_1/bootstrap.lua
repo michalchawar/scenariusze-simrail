@@ -42,6 +42,9 @@ RegisterValue("icPoloniaArrived", false)
 RegisterValue("odraAttached",     false)
 RegisterValue("tlkAttached",      false)
 
+RegisterValue("odraOutOfPlatforms", false)
+RegisterValue("backInKO1",          false)
+
 
 ----  STARTING CONFIG  ----
 

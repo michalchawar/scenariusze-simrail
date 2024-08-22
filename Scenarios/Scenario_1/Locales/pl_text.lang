@@ -22,12 +22,12 @@ MM_Gwarek_Second_attached=Super, mamy skład uformowany. Jedziemy podstawić wag
 MM_Gwarek_In_place=Możesz się już zatrzymać mechaniku.
 MM_Gwarek_Done=Odepnij wagony. Zaraz po wyjeździe pociągu InterCity dyżurny poda sygnał i pojedziemy do tarczy Tm65, zmienimy kabinę i cofniemy na tor 7 przy peronie I aż pod sam semafor M7.
 
-MM_Odra_Start=Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm29 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
+MM_Odra_Start=Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm21 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
 
-MM_Polonia_Start=Wyjeżdżamy całym składem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
-MM_Polonia_Tm29_20m=Jeszcze z 20 metrów do przodu.
-MM_Polonia_Tm29_0m=Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
-MM_Polonia_Tm29_Signal=Tarcza już świeci, możemy jechać.
+MM_Polonia_Start=Wyjeżdżamy całym składem z powrotem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
+MM_Polonia_Tm21_20m=Jeszcze z 20 metrów do przodu.
+MM_Polonia_Tm21_0m=Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
+MM_Polonia_Tm21_Signal=Tarcza już świeci, możemy jechać.
 MM_Polonia_100m=Do wagonów mamy 100 metrów.
 MM_Polonia_30m=Około 30 metrów.
 MM_Polonia_10m=10 metrów.

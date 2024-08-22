@@ -82,18 +82,18 @@ function PlayerEvents()
 
                 RadioCall("MM_Odra_Start")
                 coroutine.yield(CoroutineYields.WaitForSeconds, 20)
-                SetShuntingRoute({"KO_M7", "KO_Tm33", "KO_E13"})
+                SetShuntingRoute({"KO_M7", "KO_Tm33", "KO_Tm13"})
             end
         },
-        { "KO_E13", 227,
+        { "KO_Tm13", 256,
             function()
                 coroutine.yield(CoroutineYields.WaitForSeconds, 10)
-                SetShuntingRoute({"KO_Tm29", "KO_Tm35", "KO_N3"})
+                SetShuntingRoute({"KO_Tm21", "KO_Tm35", "KO_N3"})
             end
         },
         { "KO_Tm13", 220,
             function()
-                RadioCall("MM_Polonia_Tm29_20m")
+                RadioCall("MM_Polonia_Tm21_20m")
             end,
             function (trainset)
                 return GetValue("odraAttached") == true
@@ -101,20 +101,22 @@ function PlayerEvents()
         },
         { "KO_Tm13", 202,
             function()
-                RadioCall("MM_Polonia_Tm29_0m")
+                SetValue("odraOutOfPlatforms", true)
 
-                coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+                RadioCall("MM_Polonia_Tm21_0m")
+
+                coroutine.yield(CoroutineYields.WaitForSeconds, 25)
                 
                 ---@param response VDReponseCode
                 SetShuntingRoute({"KO_Tm21", "KO_Tm37", "KO_N9"}, function (response)
-                    RadioCall("MM_Polonia_Tm29_Signal")
+                    RadioCall("MM_Polonia_Tm21_Signal")
                 end)
             end,
             function (trainset)
                 return GetValue("odraAttached")
             end
         },
-        { "KO_N9", 280,
+        { "KO_N9", 282,
             function()
                 RadioCall("MM_Polonia_100m")
 
@@ -123,7 +125,7 @@ function PlayerEvents()
                 end
             end
         },
-        { "KO_N9", 210,
+        { "KO_N9", 212,
             function()
                 RadioCall("MM_Polonia_30m")
 
@@ -132,24 +134,22 @@ function PlayerEvents()
                 end
             end
         },
-        { "KO_N9", 190,
+        { "KO_N9", 192,
             function()
                 RadioCall("MM_Polonia_10m")
             end
         },
-        { "KO_N9", 185,
+        { "KO_N9", 187,
             function()
                 RadioCall("MM_Polonia_5m")
             end
         },
-        { "KO_N9", 180,
+        { "KO_N9", 182,
             function()
                 RadioCall("MM_Polonia_1m")
 
-                WaitUntil(function ()
-                    return GetPlayerVehicle().vel == 0
-                end)
-
+                coroutine.yield(CoroutineYields.WaitForVehicleStop, GetPlayerVehicle())
+                
                 RadioCall("MM_Polonia_Bumped")
             end
         },
@@ -173,6 +173,8 @@ function PlayerEvents()
                 SetSwitchPosition("z242", true)
                 SetSwitchPosition("z233", true)
                 SetSwitchPosition("z231", false)
+
+                SetValue("backInKO1", true)
 
                 WaitUntil(function ()
                     return #GetPlayerTrainset().Vehicles == 1 and GetCameraView() == CameraView.Sitting

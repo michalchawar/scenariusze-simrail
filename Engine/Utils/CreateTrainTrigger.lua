@@ -6,20 +6,20 @@ function CreateTrainTrigger(trainName, signalOrTrack, distance, callback)
     local type, ref = GetSignalOrTrackRef(signalOrTrack);
     local checker = {
         check = function(trainset)
-            Log("In checker")
+            -- Log("In checker")
             local triggeringTrainState = GetTrainStateByTrainsetName(trainset.name)
 
             if triggeringTrainState == nil then
-                Log("Nil triggeringTrainState in checker, trainset name: " .. trainset.name)
+                -- Log("Nil triggeringTrainState in checker, trainset name: " .. trainset.name)
                 return false
-            else
-                Log(triggeringTrainState:GetTrainStateName())
+            -- else
+                -- Log(triggeringTrainState:GetTrainStateName())
             end
 
             return trainName == triggeringTrainState:GetTrainStateName() and not triggeringTrainState:IsAttached()
         end,
         result = function()
-            Log("Calling as callback coroutine")
+            -- Log("Calling as callback coroutine")
             CallAsCoroutine(callback, GetTrainState(trainName):GetTrainset())
         end
     }

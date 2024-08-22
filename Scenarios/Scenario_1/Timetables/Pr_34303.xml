@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TrainName>PR</TrainName>
-  <TrainNumber>R 34301</TrainNumber>
+  <TrainNumber>R 34303</TrainNumber>
   <LineNumber>0</LineNumber>
   <From>Kraków Płaszów</From>
   <To>Katowice</To>
@@ -245,8 +245,8 @@
       <Mileage>0</Mileage>
 			<TrainType>MOJ</TrainType>
       <StationCategory />
-      <ArrivalTime>960</ArrivalTime>
-      <DepartureTime>1420</DepartureTime>
+      <ArrivalTime>4200</ArrivalTime>
+      <DepartureTime>4600</DepartureTime>
     </WayPointFromXml>
   </WayPoints>
   <StartSpeedLimit>110</StartSpeedLimit>

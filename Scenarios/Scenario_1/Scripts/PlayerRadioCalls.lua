@@ -70,7 +70,11 @@ function PlayerRadioCalls()
                 RadioCall("MM_Polonia_Done")
                 coroutine.yield(CoroutineYields.WaitForSeconds, 6)
 
-                SetShuntingRoute({"KO_M9", "KO_Tm34", "KO_Tm10", "KO_Tm7", "KO_Dkps"})
+                -- SetShuntingRoute({"KO_M9", "KO_Tm34", "KO_E15", "KO_Tm7", "KO_Dkps"})
+                SetShuntingRoute({"KO_M9", "KO_Tm34", "KO_E15"})
+                SetShuntingRoute({"KO_Tm7", "KO_Dkps"}, function ()
+                    SetShuntingRoute({"KO_E15", "KO_Tm7"})
+                end)
             end
         },
         ["KO_Tm17"] = {
