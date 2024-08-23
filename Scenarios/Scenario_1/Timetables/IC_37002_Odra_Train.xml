@@ -25,8 +25,8 @@
       <Mileage>0</Mileage>
 			<TrainType>ECE</TrainType>
       <StationCategory />
-      <ArrivalTime>1080</ArrivalTime>
-      <DepartureTime>1380</DepartureTime>
+      <ArrivalTime>840</ArrivalTime>
+      <DepartureTime>1140</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Zabrze</NameOfPoint>

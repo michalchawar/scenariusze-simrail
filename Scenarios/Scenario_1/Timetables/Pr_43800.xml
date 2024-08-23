@@ -14,8 +14,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>MOJ</TrainType>
       <StationCategory />
-      <ArrivalTime>1920</ArrivalTime>
-      <DepartureTime>2040</DepartureTime>
+      <ArrivalTime>1680</ArrivalTime>
+      <DepartureTime>1800</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Katowice Zawodzie</NameOfPoint>

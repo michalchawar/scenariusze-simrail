@@ -14,8 +14,8 @@
       <Mileage>0</Mileage>
 			<TrainType>EIE</TrainType>
       <StationCategory />
-      <ArrivalTime>2280</ArrivalTime>
-      <DepartureTime>3060</DepartureTime>
+      <ArrivalTime>2040</ArrivalTime>
+      <DepartureTime>2820</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Chorzów Batory</NameOfPoint>

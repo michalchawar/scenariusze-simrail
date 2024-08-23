@@ -80,8 +80,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>EIE</TrainType>
       <StationCategory />
-      <ArrivalTime>1860</ArrivalTime>
-      <DepartureTime>2460</DepartureTime>
+      <ArrivalTime>1620</ArrivalTime>
+      <DepartureTime>2220</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Sosnowiec Południowy</NameOfPoint>

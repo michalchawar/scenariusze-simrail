@@ -7,7 +7,7 @@
     <string>4E/EP07-174</string>
   </Train_Engine_Names>
   <Train_Car_Names />
-  <Scenario_Start_Time>2024-08-24T05:17:00</Scenario_Start_Time>
+  <Scenario_Start_Time>2024-08-24T05:21:00</Scenario_Start_Time>
   <Scenario_Lenght>70</Scenario_Lenght>
   <Difficulty>3</Difficulty>
   <TrackLenghtInMeters>10000</TrackLenghtInMeters>
@@ -15,7 +15,7 @@
   <HeaderText>HeaderText</HeaderText>
   <SubHeaderText>SubHeaderText</SubHeaderText>
   <MapFile>Main.jpg</MapFile>
-  <MainThumbnailPath>Vehicle.png</MainThumbnailPath>
+  <MainThumbnailPath>Vehicle.jpg</MainThumbnailPath>
   <MiniThumbnailPath1>minithumbnails/thumbnail1.jpg</MiniThumbnailPath1>
   <MiniThumbnailPath2>minithumbnails/thumbnail2.jpg</MiniThumbnailPath2>
   <MiniThumbnailPath3>minithumbnails/thumbnail3.jpg</MiniThumbnailPath3>

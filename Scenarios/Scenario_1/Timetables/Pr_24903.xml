@@ -278,8 +278,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>ROJ</TrainType>
       <StationCategory />
-      <ArrivalTime>4140</ArrivalTime>
-      <DepartureTime>4400</DepartureTime>
+      <ArrivalTime>3900</ArrivalTime>
+      <DepartureTime>4160</DepartureTime>
     </WayPointFromXml>
   </WayPoints>
   <StartSpeedLimit>110</StartSpeedLimit>

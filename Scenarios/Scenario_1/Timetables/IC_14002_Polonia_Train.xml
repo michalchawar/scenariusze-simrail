@@ -80,8 +80,8 @@
       <Mileage>0</Mileage>
 			<TrainType>ECE</TrainType>
       <StationCategory />
-      <ArrivalTime>1860</ArrivalTime>
-      <DepartureTime>2820</DepartureTime>
+      <ArrivalTime>1620</ArrivalTime>
+      <DepartureTime>2580</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Rybnik</NameOfPoint>

@@ -79,7 +79,13 @@ function GetTrainStateByTrainsetName(trainsetName)
     return GetValue("_trainStatesByTrainsetName", trainsetName)
 end
 
-
+--- Waits for trainState to spawn. Call only in coroutine.
+---@param trainState TrainsetMachineState TrainState to spawn
+function WaitForTrainStateToSpawn(trainState)
+    WaitUntil(function ()
+        return trainState:GetTrainset() ~= nil
+    end)
+end
 
 --- Structures and functions for managing routes and signals
 -- --@field from     string       Signal, from which the order is issued

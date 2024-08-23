@@ -12,5 +12,10 @@ function TrainEvents()
                 SetValue("icOdraDeparted", true)
             end
         },
+        {"Os_40907", "t27288", 50, 
+            function ()
+                SetValue("Os40907Gone", true)
+            end
+        },
     }
 end

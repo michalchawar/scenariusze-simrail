@@ -124,8 +124,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>MOJ</TrainType>
       <StationCategory />
-      <ArrivalTime>3780</ArrivalTime>
-      <DepartureTime>4000</DepartureTime>
+      <ArrivalTime>3540</ArrivalTime>
+      <DepartureTime>3760</DepartureTime>
     </WayPointFromXml>
   </WayPoints>
   <StartSpeedLimit>160</StartSpeedLimit>

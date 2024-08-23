@@ -14,8 +14,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>ROJ</TrainType>
       <StationCategory />
-      <ArrivalTime>1860</ArrivalTime>
-      <DepartureTime>2220</DepartureTime>
+      <ArrivalTime>1620</ArrivalTime>
+      <DepartureTime>1980</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Katowice Brynów</NameOfPoint>

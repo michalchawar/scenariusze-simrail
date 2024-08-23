@@ -69,8 +69,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>EIE</TrainType>
       <StationCategory />
-      <ArrivalTime>1920</ArrivalTime>
-      <DepartureTime>2460</DepartureTime>
+      <ArrivalTime>1680</ArrivalTime>
+      <DepartureTime>2220</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Zabrze</NameOfPoint>

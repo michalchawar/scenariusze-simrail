@@ -278,8 +278,8 @@
       <Mileage>0</Mileage>
 	    <TrainType>ROJ</TrainType>
       <StationCategory />
-      <ArrivalTime>3060</ArrivalTime>
-      <DepartureTime>3240</DepartureTime>
+      <ArrivalTime>2820</ArrivalTime>
+      <DepartureTime>3000</DepartureTime>
     </WayPointFromXml>
     <WayPointFromXml>
       <NameOfPoint>Katowice Załęże</NameOfPoint>

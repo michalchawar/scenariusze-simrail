@@ -45,6 +45,8 @@ RegisterValue("tlkAttached",      false)
 RegisterValue("odraOutOfPlatforms", false)
 RegisterValue("backInKO1",          false)
 
+RegisterValue("Os40907Gone", false)
+
 
 ----  STARTING CONFIG  ----
 

@@ -147,7 +147,7 @@ function CreateAITrains()
         ["IC_48150_Gwarek_2"] = {
             {
                 PassengerCars.IC_2CLASS_WITH_WC_VARIANT_2,
-                PassengerCars.IC_2CLASS_WITH_WC_VARIANT_3,
+                PassengerCars.IC_1CLASS_IC_VARIANT_2,
                 PassengerCars.IC_1CLASS_IC_VARIANT_1,
             },
             {
@@ -391,6 +391,7 @@ function CreateAITrains()
                 function (trainState)
                     SetTrainRoute({"KO_B", "KO_G18", "KO_N10"}, nil, true)
 
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 05, 46, 00 ) )
                     SetTrainRoute({"KO_N10", "KO_Pkps"})
@@ -464,6 +465,7 @@ function CreateAITrains()
                 -- end,
                 -- ---@param trainState TrainsetMachineState
                 -- function (trainState)
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 05, 58, 00 ) )
                     SetTrainRoute({"KO_N3", "KO_Skps"})
@@ -483,6 +485,10 @@ function CreateAITrains()
                     trainState:SpawnAt("KO_Tm70", 10, DynamicState.dsStop, TrainsetState.tsShunting)
                     trainState:DisableAutoDespawn()
                     trainState:DespawnAt("KZ_E", 30)
+
+                    WaitUntil(function ()
+                        return GetValue("Os40907Gone")
+                    end)
 
                     SetShuntingRoute({"KO_Tm70", "KO_Tm62", "KO_M10"}, nil, true)
                 end,
@@ -551,6 +557,7 @@ function CreateAITrains()
 
                     SetTrainRoute({ "KZ_K", "KZ_J1Skps", "KO_D", "KO_L", "KO_N7" })
                     
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 06, 10, 55 ) )
                     
@@ -575,6 +582,7 @@ function CreateAITrains()
                 -- end,
                 -- ---@param trainState TrainsetMachineState
                 -- function (trainState)
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 06, 11, 55 ) )
                     
@@ -640,6 +648,7 @@ function CreateAITrains()
 
                     SetTrainRoute({ "KZ_K", "KZ_J1Skps", "KO_D", "KO_G14", "KO_N2" })
                     
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     
                     WaitUntil(function ()
@@ -665,6 +674,7 @@ function CreateAITrains()
 
                         SetTrainRoute({ "KO_O", "KO_M3" })
 
+                        WaitForTrainStateToSpawn(trainState)
                         coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                         
                         WaitUntil(function ()
@@ -691,6 +701,7 @@ function CreateAITrains()
 
                     SetTrainRoute({"KZ_M", "KZ_P1Mkps", "KO_B", "KO_K", "KO_N1"})
 
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     
                     WaitUntil(function ()
@@ -724,6 +735,7 @@ function CreateAITrains()
                 
                     SetTrainRoute({ "KO_R", "KO_M8" })
 
+                    WaitForTrainStateToSpawn(trainState)
                     coroutine.yield(CoroutineYields.WaitForTrainsetPassengerExchangeStart, trainState:GetTrainset() )
                     coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 06, 29, 55 ) )
                     
