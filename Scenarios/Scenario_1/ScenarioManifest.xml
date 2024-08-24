@@ -8,9 +8,9 @@
   </Train_Engine_Names>
   <Train_Car_Names />
   <Scenario_Start_Time>2024-08-24T05:21:00</Scenario_Start_Time>
-  <Scenario_Lenght>70</Scenario_Lenght>
+  <Scenario_Lenght>65</Scenario_Lenght>
   <Difficulty>3</Difficulty>
-  <TrackLenghtInMeters>10000</TrackLenghtInMeters>
+  <TrackLenghtInMeters>9750</TrackLenghtInMeters>
   <SeasonOfTheYear>Summer</SeasonOfTheYear>
   <HeaderText>HeaderText</HeaderText>
   <SubHeaderText>SubHeaderText</SubHeaderText>

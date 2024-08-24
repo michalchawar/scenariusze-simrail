@@ -203,7 +203,9 @@ function PlayerEvents()
                 local playerVehicle = GetPlayerVehicle()
                 coroutine.yield(CoroutineYields.WaitForVehicleStop, playerVehicle)
 
-                local finish = FinishMission(MissionResultEnum.Success)
+                local finish = function ()
+                    FinishMission(MissionResultEnum.Success)
+                end
 
                 CallAsCoroutine(function ()
                     Log("Starting 135 seconds")
