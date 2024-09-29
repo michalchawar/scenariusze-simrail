@@ -1,0 +1,51 @@
+MissionIntro1=This morning, you will be conducting shunting operations at Katowice station. Your locomotive, EP07-174, is on track 506, in front of the shunting signal Tm501.
+MissionIntro2=Approach it, start it up, and prepare it for operation. When you're ready, report via ZEW3 on the radio.
+
+Player_Ready_to_start=This is locomotive EP07, ready to start shunting.
+Player_Gwarek_First_attached=The cars are attached, cab changed, we can move on.
+Player_Gwarek_Second_attached=I’ve attached the cars, we’re ready.
+Player_Odra_attached=Cars attached, we can proceed.
+Player_Polonia_ready=The cars are now part of the Polonia train set.
+Player_TLK_Attached=Cars are hooked up, we’re ready to go.
+
+MM_Gwarek_Start=Understood, driver. First, we are forming a passenger train for IC 48150 Gwarek. We’re heading to track 531, attaching 4 cars, and changing the cab. The signalman will give the signal shortly. Report after that.
+MM_Gwarek_First_attached=We’re moving past the Tm502 shunting signal, changing the cab, and returning to the adjacent track for the next 3 cars.
+MM_Gwarek_Tm502_20m=20 meters to go.
+MM_Gwarek_Tm502_0m=We can stop now.
+MM_Gwarek_Tm502_Signal=The signal is lit, we can proceed.
+MM_Gwarek_Second_100m=100 meters to the cars.
+MM_Gwarek_Second_30m=30 meters left.
+MM_Gwarek_Second_10m=10 meters.
+MM_Gwarek_Second_5m=5 meters left.
+MM_Gwarek_Second_1m=1 meter left.
+MM_Gwarek_Second_attached=Great, the train is formed. We’re moving the cars to track 1.
+MM_Gwarek_In_place=You can stop now, driver.
+MM_Gwarek_Done=Detach from the train. Right after the InterCity train departs, the signalman will give the signal, and we’ll proceed to the Tm65 shunting signal, change the cab, and go back to track 7 at platform I, all the way to the M7 signal.
+
+MM_Odra_Start=On track 3, IC 37002 Odra left cars with passengers traveling to Vienna. We’ll attach them and include in the IC 14002 Polonia train set on track 9. The signalman will give the signal shortly. We’ll move past the Tm21 shunting signal and return for the cars. After attaching, change the cab and report in.
+
+MM_Polonia_Start=We’re moving the entire train set back past the Tm21 shunting signal and returning to track 9, where we’ll attach the cars to the IC 14002 train set.
+MM_Polonia_Tm21_20m=20 meters forward.
+MM_Polonia_Tm21_0m=That’s enough, you can change the cab, and we’ll get the signal to reverse shortly.
+MM_Polonia_Tm21_Signal=The signal is lit, we can proceed.
+MM_Polonia_100m=100 meters to the cars.
+MM_Polonia_30m=About 30 meters.
+MM_Polonia_10m=10 meters.
+MM_Polonia_5m=5 meters left.
+MM_Polonia_1m=1 meter left.
+MM_Polonia_Bumped=Brake the train and first detach the cars from your locomotive, then connect them to the Polonia train set. Report when finished.
+MM_Polonia_Done=We just have to shunt the empty TLK cars from platform 5 to the storage tracks. We’re heading past the Tm1 shunting signal.
+
+MM_TLK_Before_Tm1=Be careful, there’s an entry signal just beyond the shunting signal. Make sure not to enter the mainline.
+MM_TLK_Tm1_0m=That’s enough, we’re moving to the rear and heading for the cars. Report when you’ve attached them and changed the cab.
+MM_TLK_Attached=We’re taking them to track 529, where the cars for Gwarek were. I’ll let you know where to stop.
+MM_TLK_50m=Move another 50 meters forward and leave the cars.
+MM_TLK_Done=That was the last task for today. We’ll just park the locomotive. Move forward and stop in front of the shunting signal.
+
+MM_Ending_z231_0m=That’s enough, you can change the cab. I’ll switch the points, and we’ll return to the starting track past the Tm501 shunting signal.
+MM_Ending_Tm501_0m=Thanks for today, shut down the locomotive, and you’re free to go.
+
+MM_Speed_warning=Watch the speed.
+
+Mission_ending_in_15s=The scenario will automatically conclude in 15 seconds.
+Mission_ending_in_30s=The scenario will automatically conclude in 30 seconds.

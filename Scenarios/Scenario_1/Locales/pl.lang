@@ -8,23 +8,23 @@ Player_Odra_attached=\u003ccolor=green\u003e[Ty]\u003c/color\u003e Wagony podpi�
 Player_Polonia_ready=\u003ccolor=green\u003e[Ty]\u003c/color\u003e Wagony są już w składzie Polonii.
 Player_TLK_Attached=\u003ccolor=green\u003e[Ty]\u003c/color\u003e Wagony na haku, możemy jechać.
 
-MM_Gwarek_Start=\u003ccolor=orange\u003e[Kierownik Manewrów]\u003c/color\u003e Przyjąłem mechaniku. Najpierw formujemy skład pasażerski dla IC 48150 Gwarka. Podjeżdżamy za tarczę manewrową Tm506, podpinamy 4 wagony i zmieniamy kabinę. Dyżurny za chwilę poda sygnał. Zgłoś się jak będziesz gotowy.
+MM_Gwarek_Start=\u003ccolor=orange\u003e[Kierownik Manewrów]\u003c/color\u003e Przyjąłem mechaniku. Najpierw formujemy skład pasażerski dla IC 48150 Gwarka. Jedziemy na tor 531, podpinamy 4 wagony i zmieniamy kabinę. Dyżurny za chwilę poda sygnał. Zgłoś się jak będziesz gotowy.
 MM_Gwarek_First_attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wyjeżdżamy za tarczę Tm502, zmieniamy kabinę i wracamy na tor obok po kolejne 3 wagony.
 MM_Gwarek_Tm502_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze z 20 metrów.
 MM_Gwarek_Tm502_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Już możemy się zatrzymać.
-MM_Gwarek_Tm502_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Semafor świeci, możemy jechać.
+MM_Gwarek_Tm502_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Tarcza świeci, możemy jechać.
 MM_Gwarek_Second_100m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 100 metrów do wagonów.
 MM_Gwarek_Second_30m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze 30 metrów.
 MM_Gwarek_Second_10m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 10 metrów.
 MM_Gwarek_Second_5m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 5 metrów zostało.
 MM_Gwarek_Second_1m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze 1 metr.
 MM_Gwarek_Second_attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Super, mamy skład uformowany. Jedziemy podstawić wagony na tor 1.
-MM_Gwarek_In_place=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Możesz się już zatrzymać mechaniku.
-MM_Gwarek_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Odepnij wagony. Zaraz po wyjeździe pociągu InterCity dyżurny poda sygnał i pojedziemy do tarczy Tm65, zmienimy kabinę i cofniemy na tor 7 przy peronie I aż pod sam semafor M7.
+MM_Gwarek_In_place=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Możesz się już zatrzymać, mechaniku.
+MM_Gwarek_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Urwij się od składu. Zaraz po wyjeździe pociągu InterCity dyżurny poda sygnał i pojedziemy do tarczy Tm65, zmienimy kabinę i cofniemy na tor 7 przy peronie I aż pod sam semafor M7.
 
-MM_Odra_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm29 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
+MM_Odra_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Na torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podpinamy je i włączamy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz zaświeci sygnał, wyjeżdżamy za tarczę Tm21 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
 
-MM_Polonia_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wyjeżdżamy całym składem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
+MM_Polonia_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wyjeżdżamy całym składem z powrotem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
 MM_Polonia_Tm21_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze z 20 metrów do przodu.
 MM_Polonia_Tm21_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Już starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
 MM_Polonia_Tm21_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Tarcza już świeci, możemy jechać.
@@ -32,15 +32,15 @@ MM_Polonia_100m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Do wagonów mamy 
 MM_Polonia_30m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Około 30 metrów.
 MM_Polonia_10m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 10 metrów.
 MM_Polonia_5m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze 5.
-MM_Polonia_1m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Metr.
-MM_Polonia_Bumped=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jak dobijesz do zderzaków to zahamuj skład i najpierw odepnij wagony od twojej lokomotywy, a później połącz je ze składem Polonii. Zgłoś się jak skończysz.
-MM_Polonia_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Super, pozostało nam tylko rozrządzenie pustych wagonów z peronu 5 na grupę odstawczą. Jedziemy za tarczę Tm1.
+MM_Polonia_1m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e 1 metr.
+MM_Polonia_Bumped=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Zahamuj skład i najpierw odepnij wagony od twojej lokomotywy, a później połącz je ze składem Polonii. Zgłoś się jak skończysz.
+MM_Polonia_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Pozostało nam tylko rozrządzenie pustych wagonów TLK z peronu 5 na grupę odstawczą. Jedziemy za tarczę Tm1.
 
-MM_TLK_Before_Tm1=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Zachowaj ostrożność, niedaleko za tarczą jest wyjazd na szlak. Wyjedź kawałek za tarczę, pozostając w obrębie stacji.
-MM_TLK_Tm1_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wystarczy, przenosimy się na tył i jedziemy po wagony. Zgłoś się jak już je podepniesz i zmienisz kabinę.
-MM_TLK_Attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jedziemy je odstawić na tor 529, skąd podpinaliśmy wagony do Gwarka. Dam znać, gdzie się zatrzymujemy.
-MM_TLK_50m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jeszcze z 50 metrów do przodu podciągnij i odepnij wagony.
-MM_TLK_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Na dziś to ostatnia praca. Odstawimy jeszcze lokomotywę na miejsce. Dawaj do przodu i zatrzymaj się za czwartym rozjazdem.
+MM_TLK_Before_Tm1=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Bądź ostrożny, niedaleko za tarczą jest semafor wjazdowy. Uważaj, żeby nie wyjechać na szlak.
+MM_TLK_Tm1_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wystarczy, przenosimy się na tył i jedziemy po wagony. Zgłoś się, jak już je podepniesz i zmienisz kabinę.
+MM_TLK_Attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Jedziemy je odstawić na tor 529, gdzie stały wagony do Gwarka. Dam znać, gdzie się zatrzymujemy.
+MM_TLK_50m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Podciągnij jeszcze z 50 metrów do przodu i zostaw wagony.
+MM_TLK_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003e To była ostatnia praca na dziś. Odstawimy jeszcze lokomotywę na miejsce. Jedziemy do przodu i zatrzymujemy się przed tarczą.
 
 MM_Ending_z231_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Wystarczy, możesz zmienić kabinę. Zaraz przełożę rozjazd i wracamy na tor początkowy za tarczę Tm501.
 MM_Ending_Tm501_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Dzięki za dziś, wyłącz lokomotywę i jesteś wolny.

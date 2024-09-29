@@ -1,51 +1,51 @@
-MissionIntro1=Dzisiejszego ranka poprowadzisz manewry na stacji Katowice. Twoja lokomotywa, EP07-174, stoi na torze 506, przed tarczą manewrową Tm501.
-MissionIntro2=Podejdź do niej, uruchom ją i przygotuj do jazdy. Jak będziesz gotowy, zgłoś się przez ZEW3 na radiu.
+MissionIntro1=This morning, you will be conducting shunting operations at Katowice station. Your locomotive, EP07-174, is on track 506, in front of the shunting signal Tm501.
+MissionIntro2=Approach it, start it up, and prepare it for operation. When you're ready, report via ZEW3 on the radio.
 
-Player_Ready_to_start=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eTu lokomotywa EP07 gotowa do rozpoczęcia manewrów.
-Player_Gwarek_First_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony podpięte, kabina zmieniona, możemy ruszać dalej.
-Player_Gwarek_Second_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003ePodpiąłem wagony, jesteśmy gotowi.
-Player_Odra_attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony podpięte, możemy ruszać.
-Player_Polonia_ready=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony są już w składzie Polonii.
-Player_TLK_Attached=\u003ccolor=blue\u003e[Ty]\u003c/color\u003eWagony na haku, możemy jechać.
+Player_Ready_to_start=\u003ccolor=green\u003e[You]\u003c/color\u003e This is locomotive EP07, ready to start shunting.
+Player_Gwarek_First_attached=\u003ccolor=green\u003e[You]\u003c/color\u003e The cars are attached, cab changed, we can move on.
+Player_Gwarek_Second_attached=\u003ccolor=green\u003e[You]\u003c/color\u003e I’ve attached the cars, we’re ready.
+Player_Odra_attached=\u003ccolor=green\u003e[You]\u003c/color\u003e Cars attached, we can proceed.
+Player_Polonia_ready=\u003ccolor=green\u003e[You]\u003c/color\u003e The cars are now part of the Polonia train set.
+Player_TLK_Attached=\u003ccolor=green\u003e[You]\u003c/color\u003e Cars are hooked up, we’re ready to go.
 
-MM_Gwarek_Start=\u003ccolor=orange\u003e[Kierownik Manewrów]\u003c/color\u003ePrzyjąłem mechaniku. Najpierw formujemy skład pasażerski dla IC 48150 Gwarka. Podjeżdżamy za tarczę manewrową Tm506, podpinamy 4 wagony i zmieniamy kabinę. Dyżurny za chwilę poda sygnał. Zgłoś się jak będziesz gotowy.
-MM_Gwarek_First_attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003eWyjeżdżamy za tarczę Tm502, zmieniamy kabinę i wracamy na tor obok po kolejne 3 wagony.
-MM_Gwarek_Tm502_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze z 20 metrów.
-MM_Gwarek_Tm502_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJuż możemy się zatrzymać.
-MM_Gwarek_Tm502_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003eSemafor świeci, możemy jechać.
-MM_Gwarek_Second_100m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e100 metrów do wagonów.
-MM_Gwarek_Second_30m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze 30 metrów.
-MM_Gwarek_Second_10m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e10 metrów.
-MM_Gwarek_Second_5m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e5 metrów zostało.
-MM_Gwarek_Second_1m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze 1 metr.
-MM_Gwarek_Second_attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003eSuper, mamy skład uformowany. Jedziemy podstawić wagony na tor 1.
-MM_Gwarek_In_place=\u003ccolor=orange\u003e[KM]\u003c/color\u003eMożesz się już zatrzymać mechaniku.
-MM_Gwarek_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003eOdepnij wagony. Zaraz po wyjeździe pociągu InterCity dyżurny poda sygnał i pojedziemy do tarczy Tm65, zmienimy kabinę i cofniemy na tor 7 przy peronie I aż pod sam semafor M7.
+MM_Gwarek_Start=\u003ccolor=orange\u003e[Shunting Manager]\u003c/color\u003e Understood, driver. First, we are forming a passenger train for IC 48150 Gwarek. We’re heading to track 531, attaching 4 cars, and changing the cab. The signalman will give the signal shortly. Report after that.
+MM_Gwarek_First_attached=\u003ccolor=orange\u003e[SM]\u003c/color\u003e We’re moving past the Tm502 shunting signal, changing the cab, and returning to the adjacent track for the next 3 cars.
+MM_Gwarek_Tm502_20m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 20 meters to go.
+MM_Gwarek_Tm502_0m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e We can stop now.
+MM_Gwarek_Tm502_Signal=\u003ccolor=orange\u003e[SM]\u003c/color\u003e The signal is lit, we can proceed.
+MM_Gwarek_Second_100m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 100 meters to the cars.
+MM_Gwarek_Second_30m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 30 meters left.
+MM_Gwarek_Second_10m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 10 meters.
+MM_Gwarek_Second_5m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 5 meters left.
+MM_Gwarek_Second_1m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 1 meter left.
+MM_Gwarek_Second_attached=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Great, the train is formed. We’re moving the cars to track 1.
+MM_Gwarek_In_place=\u003ccolor=orange\u003e[SM]\u003c/color\u003e You can stop now, driver.
+MM_Gwarek_Done=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Detach from the train. Right after the InterCity train departs, the signalman will give the signal, and we’ll proceed to the Tm65 shunting signal, change the cab, and go back to track 7 at platform I, all the way to the M7 signal.
 
-MM_Odra_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003eNa torze 3 IC 37002 Odra zostawił wagony z pasażerami jadące do Wiednia. Podepniemy je i dołączymy do składu IC 14002 Polonii na torze 9. Dyżurny zaraz poda nam sygnał, wyjeżdżamy za tarczę Tm29 i wracamy po wagony. Po podpięciu zmień kabinę i zgłoś się.
+MM_Odra_Start=\u003ccolor=orange\u003e[SM]\u003c/color\u003e On track 3, IC 37002 Odra left cars with passengers traveling to Vienna. We’ll attach them and include in the IC 14002 Polonia train set on track 9. The signalman will give the signal shortly. We’ll move past the Tm21 shunting signal and return for the cars. After attaching, change the cab and report in.
 
-MM_Polonia_Start=\u003ccolor=orange\u003e[KM]\u003c/color\u003eWyjeżdżamy całym składem za tarczę Tm21 i wracamy na tor 9, gdzie podepniemy wagony do składu IC 14002.
-MM_Polonia_Tm21_20m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze z 20 metrów do przodu.
-MM_Polonia_Tm21_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJuż starczy, możesz zmienić kabinę i zaraz dostaniemy sygnał do cofania.
-MM_Polonia_Tm21_Signal=\u003ccolor=orange\u003e[KM]\u003c/color\u003eTarcza już świeci, możemy jechać.
-MM_Polonia_100m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eDo wagonów mamy 100 metrów.
-MM_Polonia_30m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eOkoło 30 metrów.
-MM_Polonia_10m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e10 metrów.
-MM_Polonia_5m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze 5.
-MM_Polonia_1m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eMetr.
-MM_Polonia_Bumped=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJak dobijesz do zderzaków to zahamuj skład i najpierw odepnij wagony od twojej lokomotywy, a później połącz je ze składem Polonii. Zgłoś się jak skończysz.
-MM_Polonia_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003eSuper, pozostało nam tylko rozrządzenie pustych wagonów z peronu 5 na grupę odstawczą. Jedziemy za tarczę Tm1.
+MM_Polonia_Start=\u003ccolor=orange\u003e[SM]\u003c/color\u003e We’re moving the entire train set back past the Tm21 shunting signal and returning to track 9, where we’ll attach the cars to the IC 14002 train set.
+MM_Polonia_Tm21_20m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 20 meters forward.
+MM_Polonia_Tm21_0m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e That’s enough, you can change the cab, and we’ll get the signal to reverse shortly.
+MM_Polonia_Tm21_Signal=\u003ccolor=orange\u003e[SM]\u003c/color\u003e The signal is lit, we can proceed.
+MM_Polonia_100m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 100 meters to the cars.
+MM_Polonia_30m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e About 30 meters.
+MM_Polonia_10m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 10 meters.
+MM_Polonia_5m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 5 meters left.
+MM_Polonia_1m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e 1 meter left.
+MM_Polonia_Bumped=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Brake the train and first detach the cars from your locomotive, then connect them to the Polonia train set. Report when finished.
+MM_Polonia_Done=\u003ccolor=orange\u003e[SM]\u003c/color\u003e We just have to shunt the empty TLK cars from platform 5 to the storage tracks. We’re heading past the Tm1 shunting signal.
 
-MM_TLK_Before_Tm1=\u003ccolor=orange\u003e[KM]\u003c/color\u003eZachowaj ostrożność, niedaleko za tarczą jest wyjazd na szlak. Wyjedź kawałek za tarczę, pozostając w obrębie stacji.
-MM_TLK_Tm1_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eWystarczy, przenosimy się na tył i jedziemy po wagony. Zgłoś się jak już je podepniesz i zmienisz kabinę.
-MM_TLK_Attached=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJedziemy je odstawić na tor 529, skąd podpinaliśmy wagony do Gwarka. Dam znać, gdzie się zatrzymujemy.
-MM_TLK_50m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eJeszcze z 50 metrów do przodu podciągnij i odepnij wagony.
-MM_TLK_Done=\u003ccolor=orange\u003e[KM]\u003c/color\u003eNa dziś to ostatnia praca. Odstawimy jeszcze lokomotywę na miejsce. Dawaj do przodu i zatrzymaj się za czwartym rozjazdem.
+MM_TLK_Before_Tm1=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Be careful, there’s an entry signal just beyond the shunting signal. Make sure not to enter the mainline.
+MM_TLK_Tm1_0m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e That’s enough, we’re moving to the rear and heading for the cars. Report when you’ve attached them and changed the cab.
+MM_TLK_Attached=\u003ccolor=orange\u003e[SM]\u003c/color\u003e We’re taking them to track 529, where the cars for Gwarek were. I’ll let you know where to stop.
+MM_TLK_50m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Move another 50 meters forward and leave the cars.
+MM_TLK_Done=\u003ccolor=orange\u003e[SM]\u003c/color\u003e That was the last task for today. We’ll just park the locomotive. Move forward and stop in front of the shunting signal.
 
-MM_Ending_z231_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eWystarczy, możesz zmienić kabinę. Zaraz przełożę rozjazd i wracamy na tor początkowy za tarczę Tm501.
-MM_Ending_Tm501_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003eDzięki za dziś, wyłącz lokomotywę i jesteś wolny.
+MM_Ending_z231_0m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e That’s enough, you can change the cab. I’ll switch the points, and we’ll return to the starting track past the Tm501 shunting signal.
+MM_Ending_Tm501_0m=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Thanks for today, shut down the locomotive, and you’re free to go.
 
-MM_Speed_warning=\u003ccolor=orange\u003e[KM]\u003c/color\u003eUważaj na prędkość.
+MM_Speed_warning=\u003ccolor=orange\u003e[SM]\u003c/color\u003e Watch the speed.
 
-Mission_ending_in_15s=Scenariusz automatycznie się zakończy za 15 sekund.
-Mission_ending_in_30s=Scenariusz automatycznie się zakończy za 30 sekund.
+Mission_ending_in_15s=The scenario will automatically conclude in 15 seconds.
+Mission_ending_in_30s=The scenario will automatically conclude in 30 seconds.
