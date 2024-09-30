@@ -54,29 +54,12 @@ function DESPAWN()
     ts:Despawn()
 end
 
-function IC_GWAREK_NEXT_STATE()
-    local ts = GetTrainState("IC_48150_Gwarek_Train")
-    ts:NextState()
+function ASET3()
+    local pl = GetTrainState("Player")
+    pl:SetTimetable("PlayerTimetable3")
 end
 
-function IC_GWAREK_NEXT_SIGNAL()
-    local ts = GetTrainState("IC_48150_Gwarek_Train")
-
-    local trainDesc = GetTrainsetDesc(ts:GetTrainset())
-    local signalName = trainDesc.pos.lastSignal
-    local distanceToSignal = trainDesc.pos.lastDistanceToSignal or trainDesc.pos.signalDistance
-
-    Log("Found signal " .. signalName .. " at distance of " .. distanceToSignal)
-end
-
-function TEST_SIGNALS()
-    SetShuntingRoute({"KO_Tm16", "KO_F"}, function ()
-        Log("Udalo sie")
-    end)
-end
-
-function TEST_SWITCHES()
-    SetSwitchPosition("z231", false, function ()
-        Log("Udalo sie")
-    end)
+function ASET25()
+    local pl = GetTrainState("Player")
+    pl:SetTimetable("PlayerTimetable25")
 end

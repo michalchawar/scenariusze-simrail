@@ -11,7 +11,8 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Gwarek_Tm502_0m")
 
-                coroutine.yield(CoroutineYields.WaitForSeconds, 15)
+                WaitUntilPlayerCabinIsActive(1)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 3)
                 
                 ---@param response VDReponseCode
                 SetShuntingRoute({"KO_Tm502", "t8932k"}, function (response)
@@ -32,7 +33,9 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Gwarek_Second_30m")
 
-                if (GetPlayerVehicle().vel > 3) then
+                GetPlayerTrainState():SetTimetable("PlayerTimetable3")
+
+                if (GetPlayerVehicle().vel > 4) then
                     RadioCall("MM_Speed_warning")
                 end
             end
@@ -50,6 +53,8 @@ function PlayerEvents()
         { "t27108", 65,
             function()
                 RadioCall("MM_Gwarek_Second_1m")
+
+                FailMissionIfSpeedExceeds(4)
             end
         },
         { "KO_N1", 129,
@@ -87,7 +92,7 @@ function PlayerEvents()
         },
         { "KO_Tm13", 256,
             function()
-                coroutine.yield(CoroutineYields.WaitForSeconds, 10)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 15)
                 SetShuntingRoute({"KO_Tm21", "KO_Tm35", "KO_N3"})
             end
         },
@@ -106,6 +111,8 @@ function PlayerEvents()
                 RadioCall("MM_Polonia_Tm21_0m")
 
                 coroutine.yield(CoroutineYields.WaitForSeconds, 25)
+                WaitUntilPlayerCabinIsActive(-1)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 6)
                 
                 ---@param response VDReponseCode
                 SetShuntingRoute({"KO_Tm21", "KO_Tm37", "KO_N9"}, function (response)
@@ -129,7 +136,9 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Polonia_30m")
 
-                if (GetPlayerVehicle().vel > 3) then
+                GetPlayerTrainState():SetTimetable("PlayerTimetable3")
+
+                if (GetPlayerVehicle().vel > 4) then
                     RadioCall("MM_Speed_warning")
                 end
             end
@@ -148,8 +157,9 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Polonia_1m")
 
+                FailMissionIfSpeedExceeds(4)
+
                 coroutine.yield(CoroutineYields.WaitForVehicleStop, GetPlayerVehicle())
-                
                 RadioCall("MM_Polonia_Bumped")
             end
         },
@@ -226,6 +236,41 @@ function PlayerEvents()
                     DisplayMessage("Mission_ending_in_15s", 8)
                     coroutine.yield(CoroutineYields.WaitForSeconds, 15)
                 end, nil, finish)
+            end
+        },
+
+        --- SPEED CHANGES WITH TIMETABLE ---
+        -- Approaching first part of Gwarek
+        { "t8781", 10,
+            function()
+                GetPlayerTrainState():SetTimetable("PlayerTimetable3")
+            end
+        },
+        { "t27107", 6,
+            function()
+                FailMissionIfSpeedExceeds(4)
+            end
+        },
+        -- Approaching Odra
+        { "t9628", 5,
+            function()
+                GetPlayerTrainState():SetTimetable("PlayerTimetable3")
+            end
+        },
+        { "t9628", 37,
+            function()
+                FailMissionIfSpeedExceeds(4)
+            end
+        },
+        -- Approaching TLK
+        { "t11231", 34,
+            function()
+                GetPlayerTrainState():SetTimetable("PlayerTimetable3")
+            end
+        },
+        { "t11230", 28,
+            function()
+                FailMissionIfSpeedExceeds(4)
             end
         },
     }

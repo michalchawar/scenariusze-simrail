@@ -57,6 +57,11 @@ function GetPlayerTrainset()
     return RailstockGetPlayerTrainset()
 end
 
+---@return TrainsetMachineState
+function GetPlayerTrainState() 
+    return GetTrainStateByTrainsetName(GetPlayerTrainset().name)
+end
+
 ---@return Vehicle
 function GetPlayerVehicle() 
     return RailstockGetPlayerVehicle()
@@ -129,4 +134,14 @@ end
 ---@param orderId integer OrderID, corresponding to the order to delete info about
 function DeleteOrderStorageLog(orderId)
     DeleteValue("_vdOrderStorage", orderId)
+end
+
+--- Ends a scenario with MissionResultEnum.ScenarioProcedureFailed if current player vehicle speed exceeds given one
+---@param maxSpeed integer Speed that when exceeded fails the mission
+function FailMissionIfSpeedExceeds(maxSpeed)
+    local playerVehicle = GetPlayerVehicle()
+
+    if playerVehicle.velAbs > maxSpeed then
+        FinishMission(MissionResultEnum.ScenarioProcedureFailed)
+    end
 end

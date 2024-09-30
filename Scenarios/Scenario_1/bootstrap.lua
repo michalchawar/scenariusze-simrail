@@ -72,6 +72,7 @@ function PrepareScenario() end
 function EarlyScenarioStart()
     StartRecorder()
     SetCameraView(CameraView.FirstPersonWalkingOutside)
+    SetBlockTeleportation(true)
 
 
     -- Date and time of scenario start: 24.08.2024 @ 5:20
@@ -84,9 +85,16 @@ function EarlyScenarioStart()
         Locomotives.EP07_174_GREEN_OLD,
     })
 
-    trainState:GetTrainset().SetState(DynamicState.dsStop, TrainsetState.tsShunting, true)
-    trainState:GetTrainset().SetRadioChannel(7, true)
-    -- trainset.SetPaperTimetable("Papers")
+    -- trainState:GetTrainset().SetState(DynamicState.dsStop, TrainsetState.tsShunting, true)
+    trainState:GetTrainset().SetState(DynamicState.dsCold, TrainsetState.tsDeactivation, true)
+    trainState:GetTrainset().SetRadioChannel(9, true)
+    trainState:GetTrainset().SetPaperTimetable("Papers")
+    -- trainState:GetTrainset().SetTimetable(LoadTimetableFromFile("PlayerTimetable25.xml"), false)
+    trainState:SetTimetable("PlayerTimetable25")
+    
+    -- CallAsCoroutine(function ()
+    --     trainState:GetTrainset().SetTimetable(LoadTimetableFromFile("PlayerTimetable.xml"), false)
+    -- end, nil)
 
 
     -- eye target

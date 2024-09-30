@@ -37,6 +37,10 @@ function TrainsetMachineState:GetTrainsetState() end
 ---@param trainState TrainsetState Target trainset state.
 function TrainsetMachineState:SetTrainsetState(trainState) end
 
+--- Sets trainset timetable
+---@param timetableName string Name of .xml file with timetable (without extension).
+function TrainsetMachineState:SetTimetable(timetableName) end
+
 --- Gets information of TrainState's default brake regime
 ---@return TrainsetState
 function TrainsetMachineState:GetBrakeRegime() end
@@ -158,6 +162,23 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
                 self._trainset.SetState(DynamicState.dsStop, trainsetState, false)
             end
         end,
+        SetTimetable = function(self, timetableName)
+            CallAsCoroutine(function ()
+                if self._spawning then
+                    WaitUntil(function ()
+                        return self._trainset ~= nil
+                    end)
+                elseif self._trainset == nil then
+                    return
+                end
+
+                local timetable = LoadTimetableFromFile(timetableName .. ".xml")
+
+                if (timetable ~= nil) then
+                    self._trainset.SetTimetable(timetable, false)
+                end
+            end, nil)
+        end,
         GetBrakeRegime = function(self)
             return self._brakeRegime
         end,
@@ -218,6 +239,8 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
             end
         end,
         SpawnAt = function(self, signalOrTrackName, distance, dynamics, state, async, reversed, dummyPhysics, teleportToCabin, brakeRegime)
+            self._isSpawning = true
+            
             -- Log("Wywołano SpawnAt()")
             if (self._attached) then
                 Log("Can't spawn attached trainState " .. self._name)
@@ -269,7 +292,7 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
                     state = self._trainsetState
                 end
 
-                Log("Spawning state: " .. 10 + state)
+                -- Log("Spawning state: " .. 10 + state)
 
                 trainset.SetState(dynamics, state, true)
                 

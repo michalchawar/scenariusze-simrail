@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TrainName>IC 37002/14002/</TrainName>
-  <TrainNumber>105</TrainNumber>
+  <TrainName>IC 37002/14002/105</TrainName>
+  <TrainNumber></TrainNumber>
   <LineNumber>1</LineNumber>
   <From>Kraków Główny</From>
   <To>Wien Hbf</To>

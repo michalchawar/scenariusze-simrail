@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimeTableStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainName>EP07</TrainName>
+  <TrainNumber>174</TrainNumber>
+  <LineNumber>0</LineNumber>
+  <From>Manewry</From>
+  <To>Katowice</To>
+  <WayPoints>
+    <WayPointFromXml>
+      <NameOfPoint>-</NameOfPoint>
+      <DisplayName>-</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>-</NameOfPoint>
+      <DisplayName>-</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+    <WayPointFromXml>
+      <NameOfPoint>-</NameOfPoint>
+      <DisplayName>-</DisplayName>
+      <StopType>noStopover</StopType>
+      <Line>0</Line>
+      <Mileage>0</Mileage>
+      <StationCategory />
+      <ArrivalTime>0</ArrivalTime>
+      <DepartureTime>0</DepartureTime>
+    </WayPointFromXml>
+  </WayPoints>
+  <StartSpeedLimit>3</StartSpeedLimit>
+  <StartGlobalSpeedLimit>25</StartGlobalSpeedLimit>
+  <StartRadioChannels>
+    <int>9</int>
+  </StartRadioChannels>
+</TimeTableStorage>
