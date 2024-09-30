@@ -72,7 +72,7 @@ function PrepareScenario() end
 function EarlyScenarioStart()
     StartRecorder()
     SetCameraView(CameraView.FirstPersonWalkingOutside)
-    SetBlockTeleportation(true)
+    SetBlockTeleportation(false)
 
 
     -- Date and time of scenario start: 24.08.2024 @ 5:20
