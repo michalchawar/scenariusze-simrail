@@ -43,6 +43,7 @@ RegisterValue("odraAttached",     false)
 RegisterValue("tlkAttached",      false)
 
 RegisterValue("odraOutOfPlatforms", false)
+RegisterValue("reversedTm1",        false)
 RegisterValue("backInKO1",          false)
 
 RegisterValue("Os40907Gone", false)

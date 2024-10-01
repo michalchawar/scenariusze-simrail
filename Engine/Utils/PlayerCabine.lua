@@ -17,7 +17,7 @@ function IsPlayerActiveCabinEqual(cabin)
     local playerTrainset = GetPlayerTrainset()
 
     if playerTrainset.CabinDir ~= cabin then
-        Log("Cabine check not passed")
+        Log("Cabine check not passed, player: " .. playerTrainset.CabinDir .. ", cabin: " .. cabin)
     end
 
     return playerTrainset.CabinDir == cabin

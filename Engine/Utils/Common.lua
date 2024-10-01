@@ -139,6 +139,8 @@ end
 --- Ends a scenario with MissionResultEnum.ScenarioProcedureFailed if current player vehicle speed exceeds given one
 ---@param maxSpeed integer Speed that when exceeded fails the mission
 function FailMissionIfSpeedExceeds(maxSpeed)
+    Log("Checking for speed (FailMission)")
+
     local playerVehicle = GetPlayerVehicle()
 
     if playerVehicle.velAbs > maxSpeed then

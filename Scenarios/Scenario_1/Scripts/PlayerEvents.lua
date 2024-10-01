@@ -111,6 +111,7 @@ function PlayerEvents()
                 RadioCall("MM_Polonia_Tm21_0m")
 
                 coroutine.yield(CoroutineYields.WaitForSeconds, 25)
+                -- cabin numeration is reversed when Odra attached
                 WaitUntilPlayerCabinIsActive(-1)
                 coroutine.yield(CoroutineYields.WaitForSeconds, 6)
                 
@@ -174,6 +175,11 @@ function PlayerEvents()
 
                 coroutine.yield(CoroutineYields.WaitForSeconds, 15)
                 SetShuntingRoute({"KO_Tm1", "KO_Tm16", "KO_F"})
+            end
+        },
+        { "t9311", 13,
+            function()
+                SetValue("reversedTm1", true)
             end
         },
         { "t27108", 85,
@@ -257,7 +263,7 @@ function PlayerEvents()
                 GetPlayerTrainState():SetTimetable("PlayerTimetable3")
             end
         },
-        { "t9628", 37,
+        { "KO_N3", 289,
             function()
                 FailMissionIfSpeedExceeds(4)
             end

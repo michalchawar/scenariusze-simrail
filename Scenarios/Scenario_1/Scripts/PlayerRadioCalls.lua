@@ -79,10 +79,8 @@ function PlayerRadioCalls()
                     SetShuntingRoute({"KO_M3", "KO_Tm32", "KO_Tm13"})
                 end,
                 function ()
-                    if #GetPlayerTrainset().Vehicles <= 1 then
-                        Log("Vehicles check not passed")
-                    end
-                    return IsPlayerActiveCabinEqual(1) and #GetPlayerTrainset().Vehicles > 1
+                    -- cabin numeration is reversed when Odra attached
+                    return IsPlayerActiveCabinEqual(-1) and #GetPlayerTrainset().Vehicles > 1
                 end
             }
         },

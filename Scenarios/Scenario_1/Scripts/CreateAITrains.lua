@@ -555,7 +555,13 @@ function CreateAITrains()
                     trainState:DisableAutoDespawn()
                     trainState:DespawnAt("t9759")
 
-                    SetTrainRoute({ "KZ_K", "KZ_J1Skps", "KO_D", "KO_L" })
+                    SetTrainRoute({ "KZ_K", "KZ_J1Skps" })
+
+                    WaitUntil(function ()
+                        return GetValue("reversedTm1")
+                    end)
+
+                    SetTrainRoute({ "KO_D", "KO_L", "KO_N7" })
                 end,
                 ---@param trainState TrainsetMachineState
                 function (trainState)
