@@ -47,5 +47,6 @@ MM_Ending_Tm501_0m=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Dzięki za dzi
 
 MM_Speed_warning=\u003ccolor=orange\u003e[KM]\u003c/color\u003e Uważaj na prędkość.
 
-Mission_ending_in_15s=Scenariusz automatycznie się zakończy za 15 sekund.
-Mission_ending_in_30s=Scenariusz automatycznie się zakończy za 30 sekund.
+Mission_time_exceeded=\u003ccolor=red\u003eNie udało Ci się opuścić grupy postojowej przed 5:45.\u003c/color\u003e
+Mission_ending_in_15s=\u003ccolor=red\u003eScenariusz automatycznie się zakończy za 15 sekund.\u003c/color\u003e
+Mission_ending_in_30s=\u003ccolor=red\u003eScenariusz automatycznie się zakończy za 30 sekund.\u003c/color\u003e

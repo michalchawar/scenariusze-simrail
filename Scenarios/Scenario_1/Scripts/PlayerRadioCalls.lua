@@ -42,6 +42,7 @@ function PlayerRadioCalls()
             {
                 function ()
                     GetPlayerTrainState():SetTimetable("PlayerTimetable25")
+                    SetValue("gwarekAttached", true)
 
                     RadioPlayerCall("Gwarek_Second_attached")
                     coroutine.yield(CoroutineYields.WaitForSeconds, 2)
@@ -52,7 +53,7 @@ function PlayerRadioCalls()
                     SetShuntingRoute({"KO_Tm505", "KO_Tm3"})
 
                     WaitUntil(function ()
-                        return GetValue("icOdraArrived") == true
+                        return GetValue("icOdraArrived") and GetValue("outOfKO1")
                     end)
                     
                     SetShuntingRoute({"KO_Tm3", "KO_K", "KO_Tm29", "KO_Tm35", "KO_N1"})

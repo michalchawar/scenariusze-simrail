@@ -57,6 +57,14 @@ function PlayerEvents()
                 FailMissionIfSpeedExceeds(4)
             end
         },
+        { "KO_Tm3", 250,
+            function()
+                SetValue("outOfKO1", true)
+            end,
+            function (trainset)
+                return GetValue("gwarekAttached")
+            end
+        },
         { "KO_N1", 129,
             function()
                 RadioCall("MM_Gwarek_In_place")
@@ -112,7 +120,7 @@ function PlayerEvents()
 
                 coroutine.yield(CoroutineYields.WaitForSeconds, 25)
                 -- cabin numeration is reversed when Odra attached
-                WaitUntilPlayerCabinIsActive(-1)
+                WaitUntilPlayerCabinIsActive(1)
                 coroutine.yield(CoroutineYields.WaitForSeconds, 6)
                 
                 ---@param response VDReponseCode

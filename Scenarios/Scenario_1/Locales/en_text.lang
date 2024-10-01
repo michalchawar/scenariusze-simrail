@@ -47,5 +47,6 @@ MM_Ending_Tm501_0m=Thanks for today, shut down the locomotive, and you’re free
 
 MM_Speed_warning=Watch the speed.
 
+Mission_time_exceeded=You failed to leave the railyard before 5:45.
 Mission_ending_in_15s=The scenario will automatically conclude in 15 seconds.
 Mission_ending_in_30s=The scenario will automatically conclude in 30 seconds.

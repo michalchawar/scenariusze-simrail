@@ -439,13 +439,13 @@ function CreateAITrains()
             {
                 ---@param trainState TrainsetMachineState
                 function (trainState)
-                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 05, 47, 30 ) )
+                    coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp( 05, 45, 00 ) )
                     
-                    trainState:SpawnAt("KO_B", 35, DynamicState.dsStop, TrainsetState.tsTrain)
+                    trainState:SpawnAt("KZ_M", 35, DynamicState.dsStop, TrainsetState.tsTrain)
                     trainState:DisableAutoDespawn()
                     trainState:DespawnAt("t9759")
                     
-                    -- SetTrainRoute({"KO_B", "KO_K"})
+                    SetTrainRoute({"KZ_K", "KZ_P1Mkps"})
 
                     -- WaitUntil(function ()
                     --     return GetValue("odraOutOfPlatforms")

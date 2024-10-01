@@ -39,9 +39,11 @@ RegisterValue("icOdraArrived",    false)
 RegisterValue("icOdraDeparted",   false)
 RegisterValue("icPoloniaArrived", false)
 
+RegisterValue("gwarekAttached",   false)
 RegisterValue("odraAttached",     false)
 RegisterValue("tlkAttached",      false)
 
+RegisterValue("outOfKO1",           false)
 RegisterValue("odraOutOfPlatforms", false)
 RegisterValue("reversedTm1",        false)
 RegisterValue("backInKO1",          false)
@@ -111,6 +113,15 @@ function EarlyScenarioStart()
         DisplayMessage("MissionIntro2", IntroDelays)
     end)
 
+    CallAsCoroutine(function ()
+        coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(5, 45, 00))
+        
+        if not GetValue("outOfKO1") then
+            DisplayMessage("Mission_time_exceeded", 7)
+            coroutine.yield(CoroutineYields.WaitForSeconds, 7)
+            FinishMission(MissionResultEnum.Failed)
+        end
+    end)
 
     -- initialize story
     InitScenarioStory(ScenarioStory)
