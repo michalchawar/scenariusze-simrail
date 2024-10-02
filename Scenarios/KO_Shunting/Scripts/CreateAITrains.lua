@@ -445,7 +445,7 @@ function CreateAITrains()
                     trainState:DisableAutoDespawn()
                     trainState:DespawnAt("t9759")
                     
-                    SetTrainRoute({"KZ_K", "KZ_P1Mkps"})
+                    SetTrainRoute({"KZ_M", "KZ_P1Mkps"})
 
                     -- WaitUntil(function ()
                     --     return GetValue("odraOutOfPlatforms")
