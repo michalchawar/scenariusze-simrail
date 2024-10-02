@@ -282,7 +282,7 @@ function PlayerEvents()
                 GetPlayerTrainState():SetTimetable("PlayerTimetable3")
             end
         },
-        { "t11230", 28,
+        { "KO_F", 112,
             function()
                 FailMissionIfSpeedExceeds(4)
             end
