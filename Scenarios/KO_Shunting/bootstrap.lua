@@ -1,8 +1,10 @@
 -- SimRail - The Railway Simulator
--- LUA Scripting scenario
+-- LUA Scripting framework
 -- Version: 2.0
--- Created by Budnix
+--
+-- Framework created by Budnix
 -- Developed and extended by vardazed
+-- Scenario version 1.0
 
 ----  REQUIRES  ----
 
