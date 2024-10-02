@@ -1,7 +1,8 @@
 -- SimRail - The Railway Simulator
 -- LUA Scripting scenario
--- Version: 1.0
---
+-- Version: 2.0
+-- Created by Budnix
+-- Developed and extended by vardazed
 
 ----  REQUIRES  ----
 
@@ -23,7 +24,7 @@ require("Sounds/SoundsList")
 ----  DEVELOPER MODE  ----
 
 DeveloperMode = function()
-    return true
+    return false
 end
 
 
@@ -92,13 +93,8 @@ function EarlyScenarioStart()
     trainState:GetTrainset().SetState(DynamicState.dsCold, TrainsetState.tsDeactivation, true)
     trainState:GetTrainset().SetRadioChannel(9, true)
     trainState:GetTrainset().SetPaperTimetable("Papers")
-    -- trainState:GetTrainset().SetTimetable(LoadTimetableFromFile("PlayerTimetable25.xml"), false)
     trainState:SetTimetable("PlayerTimetable25")
     
-    -- CallAsCoroutine(function ()
-    --     trainState:GetTrainset().SetTimetable(LoadTimetableFromFile("PlayerTimetable.xml"), false)
-    -- end, nil)
-
 
     -- eye target
     local eyeTarget = FindTrack("t9297").transform.position
@@ -113,6 +109,7 @@ function EarlyScenarioStart()
         DisplayMessage("MissionIntro2", IntroDelays)
     end)
 
+    -- fail mission if too slow start
     CallAsCoroutine(function ()
         coroutine.yield(CoroutineYields.WaitForIngameDateTime, CreateScenarioTimeStamp(5, 45, 00))
         
