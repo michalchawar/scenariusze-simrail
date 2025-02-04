@@ -454,12 +454,12 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
             -- Log("Detaching " .. numberOfVehicles .. " vehicles from the end of " .. self._name)
 
             self._vehicleList = firstTrainsetVehicles
-            Log("Despawning original train")
+            -- Log("Despawning original train")
             self:Despawn()
-            Log("Spawning shortened train")
+            -- Log("Spawning shortened train")
             self:SpawnAt(signalName, distanceToSignal, DynamicState.dsStop, TrainsetState.tsTrain, false)
 
-            Log("Creating detached vehicles")
+            -- Log("Creating detached vehicles")
             CreateTrainset(
                 newName or self._name .. "_Detached", 
                 secondTrainsetVehicles, 
