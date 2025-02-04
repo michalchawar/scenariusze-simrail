@@ -255,7 +255,7 @@ function PlayerEvents()
 
         --- SPEED CHANGES WITH TIMETABLE ---
         -- Approaching first part of Gwarek
-        { "t8781", 10,
+        { "t8922", 10,
             function()
                 GetPlayerTrainState():SetTimetable("PlayerTimetable3")
             end
