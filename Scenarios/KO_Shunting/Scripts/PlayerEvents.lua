@@ -11,8 +11,7 @@ function PlayerEvents()
             function()
                 RadioCall("MM_Gwarek_Tm502_0m")
 
-                WaitUntilPlayerCabinIsActive(1)
-                coroutine.yield(CoroutineYields.WaitForSeconds, 3)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 10)
                 
                 ---@param response VDReponseCode
                 SetShuntingRoute({"KO_Tm502", "t8932k"}, function (response)
@@ -118,10 +117,7 @@ function PlayerEvents()
 
                 RadioCall("MM_Polonia_Tm21_0m")
 
-                coroutine.yield(CoroutineYields.WaitForSeconds, 25)
-                -- cabin numeration is reversed when Odra attached
-                WaitUntilPlayerCabinIsActive(1)
-                coroutine.yield(CoroutineYields.WaitForSeconds, 6)
+                coroutine.yield(CoroutineYields.WaitForSeconds, 35)
                 
                 ---@param response VDReponseCode
                 SetShuntingRoute({"KO_Tm21", "KO_Tm37", "KO_N9"}, function (response)
