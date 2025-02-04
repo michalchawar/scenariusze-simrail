@@ -128,7 +128,7 @@ function PlayerRadioCalls()
                     SetShuntingRoute({"KO_Tm17", "KO_E20", "KO_Tm502", "t8932k"})
                 end,
                 function ()
-                    return IsPlayerActiveCabinEqual(1) and #GetPlayerTrainset().Vehicles > 1
+                    return IsPlayerActiveCabinEqual(-1) and #GetPlayerTrainset().Vehicles > 1
                 end
             }
         },
