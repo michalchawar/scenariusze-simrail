@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScenarioManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UID>933c0a2f-eb50-4460-a65a-637a995d57fc</UID>
   <Required_Level>3</Required_Level>
   <Train_Type>Passenger</Train_Type>
   <Scenario_Name>SceneryNameText</Scenario_Name>
@@ -12,6 +13,7 @@
   <Difficulty>3</Difficulty>
   <TrackLenghtInMeters>50000</TrackLenghtInMeters>
   <SeasonOfTheYear>Winter</SeasonOfTheYear>
+  <SceneVariant>Default</SceneVariant>
   <HeaderText>HeaderText</HeaderText>
   <SubHeaderText>SubHeaderText</SubHeaderText>
   <MapFile>Map.png</MapFile>
@@ -21,7 +23,7 @@
   <MiniThumbnailPath3>minithumbnails/minithumbnail3.png</MiniThumbnailPath3>
   <Description>ScenarioDescription</Description>
   <MissionFile>bootstrap.lua</MissionFile>
-  <TimeTableFile></TimeTableFile>
+  <TimeTableFile />
   <CustomTranslations>
     <CustomTranslation Key="SceneryNameText">
       <Translations>
@@ -29,19 +31,19 @@
         <CustomTranslationEntry LanguageTag="pl">TEST</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
-        <CustomTranslation Key="HeaderText">
+    <CustomTranslation Key="HeaderText">
       <Translations>
         <CustomTranslationEntry LanguageTag="en">Passenger train route</CustomTranslationEntry>
         <CustomTranslationEntry LanguageTag="pl">Kurs składem pasażerskim</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
-        <CustomTranslation Key="SubHeaderText">
+    <CustomTranslation Key="SubHeaderText">
       <Translations>
         <CustomTranslationEntry LanguageTag="en">Katowice - Gdynia Główna</CustomTranslationEntry>
         <CustomTranslationEntry LanguageTag="pl">Katowice - Gdynia Główna</CustomTranslationEntry>
       </Translations>
     </CustomTranslation>
-        <CustomTranslation Key="ScenarioDescription">
+    <CustomTranslation Key="ScenarioDescription">
       <Translations>
         <CustomTranslationEntry LanguageTag="en">You will drive the TLK 45102 train on the Katowice - Gdynia Główna route. You take over the train from the previous driver from the technical platform. \n\nAutor: Budnix</CustomTranslationEntry>
         <CustomTranslationEntry LanguageTag="pl">Poprowadzisz pociąg TLK 45102 relacji Katowice - Gdynia Główna. Obejmujesz skład od poprzedniego maszynisty z peronu technicznego. \n\nAutor: Budnix</CustomTranslationEntry>

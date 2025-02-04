@@ -2,8 +2,8 @@ require("SimRailCore")
 
 function PlayerRadioCalls()
     return {
-        ["KZ_F"] = {
-            -- after starting loco but in normal mode so it reads normal semaphore
+        ["KO_Tm501"] = {
+            -- after starting loco
             {
                 function ()
                     RadioPlayerCall("Ready_to_start")

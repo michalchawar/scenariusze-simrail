@@ -122,6 +122,7 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
         _index = 1,
         _name = name,
         _trainset = nil,
+        _spawnCounter = 0,
         _vehicleList = vehicles,
         _disableAutoDespawn = false,
         _despawnable = false,
@@ -311,22 +312,25 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
 
             Log("Spawn " .. (self._isPlayerVehicle and "Player" or "AI") .. " train: " .. self._name)
 
+            local trainsetName = self._name .. "_spawn-" .. self._spawnCounter
+            self._spawnCounter = self._spawnCounter + 1
+
             if (type == "track") then
                 if (async and not self._isPlayerVehicle) then
                     Log("Spawning on track async")
-                    SpawnTrainsetAsync(self._name, ref, distance, false, self._isPlayerVehicle, dummyPhysics, CreateVehicles(self._vehicleList, reversed, brakeRegime), onSpawn)
+                    SpawnTrainsetAsync(trainsetName, ref, distance, false, self._isPlayerVehicle, dummyPhysics, CreateVehicles(self._vehicleList, reversed, brakeRegime), onSpawn)
                 else
                     Log("Spawning on track sync")
-                    local created = SpawnTrainset(self._name, ref, distance, false, self._isPlayerVehicle, dummyPhysics, teleportToCabin, CreateVehicles(self._vehicleList, reversed, brakeRegime))
+                    local created = SpawnTrainset(trainsetName, ref, distance, false, self._isPlayerVehicle, dummyPhysics, teleportToCabin, CreateVehicles(self._vehicleList, reversed, brakeRegime))
                     onSpawn(created)
                 end
             elseif (type == "signal") then
                 if (async and not self._isPlayerVehicle) then
                     Log("Spawning on signal async")
-                    SpawnTrainsetOnSignalAsync(self._name, ref, distance, false, self._isPlayerVehicle, dummyPhysics, CreateVehicles(self._vehicleList, reversed, brakeRegime), onSpawn)
+                    SpawnTrainsetOnSignalAsync(trainsetName, ref, distance, false, self._isPlayerVehicle, dummyPhysics, CreateVehicles(self._vehicleList, reversed, brakeRegime), onSpawn)
                 else
                     Log("Spawning on signal sync")
-                    local created = SpawnTrainsetOnSignal(self._name, ref, distance, reversed, self._isPlayerVehicle, dummyPhysics, teleportToCabin, CreateVehicles(self._vehicleList, reversed, brakeRegime))
+                    local created = SpawnTrainsetOnSignal(trainsetName, ref, distance, reversed, self._isPlayerVehicle, dummyPhysics, teleportToCabin, CreateVehicles(self._vehicleList, reversed, brakeRegime))
                     onSpawn(created)
                 end
             end
@@ -450,12 +454,12 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
             -- Log("Detaching " .. numberOfVehicles .. " vehicles from the end of " .. self._name)
 
             self._vehicleList = firstTrainsetVehicles
-            -- Log("Despawning original train")
+            Log("Despawning original train")
             self:Despawn()
-            -- Log("Spawning shortened train")
+            Log("Spawning shortened train")
             self:SpawnAt(signalName, distanceToSignal, DynamicState.dsStop, TrainsetState.tsTrain, false)
 
-            -- Log("Creating detached vehicles")
+            Log("Creating detached vehicles")
             CreateTrainset(
                 newName or self._name .. "_Detached", 
                 secondTrainsetVehicles, 

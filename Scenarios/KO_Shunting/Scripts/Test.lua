@@ -14,7 +14,9 @@ function LOG_REGISTERED_TRAINSETS()
                 txt = txt .. v:GetTrainStateName() .. ', '
             end
 
-            Log(k .. "; consists of trainstates: " .. txt)
+            local ts = v:GetTrainset()
+
+            Log(k .. "; trainset: " .. (ts ~= nil and ts.name or "nil") .. "; consists of trainstates: " .. txt)
         end
     end
 end
@@ -40,8 +42,35 @@ function SPAWN()
 end
 
 function LOG_NEXT_SIGNAL()
-    local ts = GetTrainState("KO_TEST1")
-    Log(GetTrainsetDesc(ts:GetTrainset()).pos.lastSignal)
+    local trainstates = GetRef("_trainStates")
+    local array = {}
+
+    for k, v in pairs(trainstates) do
+        table.insert( array, {
+            ["Text"] = k,
+            ["OnClick"] = function()
+                Log("Starting")
+                
+                if (v:GetTrainset() == nil) then
+                    Log("Nil trainset")
+                end
+                Log("Not nil trainset")
+
+                local desc = GetTrainsetDesc(v:GetTrainset())
+                if (desc == nil) then
+                    Log("Nil desc")
+                    return
+                end
+                if (desc.pos == nil) then
+                    Log("Nil pos")
+                end
+
+                Log(desc.pos.lastSignal .. " @ " .. desc.pos.lastDistanceToSignal .. " (" .. desc.pos.signalDistance .. ")")
+            end,
+        })
+    end
+
+    ShowMessageBox("Select TrainState", table.unpack(array))
 end
 
 function SWITCH_DIRECTION()
@@ -62,4 +91,9 @@ end
 function ASET25()
     local pl = GetTrainState("Player")
     pl:SetTimetable("PlayerTimetable25")
+end
+
+function NEXT_ODRA_STATE()
+   local ts = GetTrainState("IC_37002_Odra_Train")
+   ts:NextState()
 end
