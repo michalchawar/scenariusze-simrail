@@ -80,8 +80,9 @@ function PlayerRadioCalls()
                     SetShuntingRoute({"KO_M3", "KO_Tm32", "KO_Tm13"})
                 end,
                 function ()
-                    -- cabin numeration is reversed when Odra attached
-                    return IsPlayerActiveCabinEqual(-1) and #GetPlayerTrainset().Vehicles > 1
+                    -- cabin numeration is bugged after Odra things
+                    -- so ommiting it further
+                    return #GetPlayerTrainset().Vehicles > 1
                 end
             }
         },
@@ -106,7 +107,7 @@ function PlayerRadioCalls()
                     end)
                 end,
                 function ()
-                    return IsPlayerActiveCabinEqual(1) and #GetPlayerTrainset().Vehicles == 1 
+                    return #GetPlayerTrainset().Vehicles == 1 
                       and #GetTrainState("IC_14002_Polonia_Train"):GetTrainset().Vehicles > 6
                 end
             }
@@ -128,7 +129,7 @@ function PlayerRadioCalls()
                     SetShuntingRoute({"KO_Tm17", "KO_E20", "KO_Tm502", "t8932k"})
                 end,
                 function ()
-                    return IsPlayerActiveCabinEqual(-1) and #GetPlayerTrainset().Vehicles > 1
+                    return #GetPlayerTrainset().Vehicles > 1
                 end
             }
         },

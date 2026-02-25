@@ -140,10 +140,11 @@ end
 ---@param maxSpeed integer Speed that when exceeded fails the mission
 function FailMissionIfSpeedExceeds(maxSpeed)
     Log("Checking for speed (FailMission)")
-
+    
     local playerVehicle = GetPlayerVehicle()
-
+    
     if playerVehicle.velAbs > maxSpeed then
-        FinishMission(MissionResultEnum.ScenarioProcedureFailed)
+        Log("Speed exceeded. Failing mission.")
+        FinishMission(MissionResultEnum.Failed_ScenarioProcedureFailure)
     end
 end
