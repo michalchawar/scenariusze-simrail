@@ -152,12 +152,12 @@ end
 
 --- Function called by SimRail when VD responds to VD request
 ---@param orderId integer Request order ID to which it VD responded
----@param status  VDReponseCode Response that VD has sent
+---@param status  VDResponseCode Response that VD has sent
 function OnVirtualDispatcherResponseReceived(orderId, status)
     local orderLog = GetOrderStorageLog(orderId)
 
     -- not accepted
-    if status == VDReponseCode.Error then
+    if status == VDResponseCode.Error then -- VDReponseCode.Error
         if not orderLog.retry then
             return
         end
@@ -175,7 +175,7 @@ function OnVirtualDispatcherResponseReceived(orderId, status)
                 UpdateOrderStorageLog(orderId, retriedOrderId)
             end
         )
-    elseif status == VDReponseCode.Accepted then
+    elseif status == VDResponseCode.Accepted then -- VDReponseCode.Accepted
         -- accepted
         if type(orderLog.callback) == "function" then
             -- Log("Calling callback")

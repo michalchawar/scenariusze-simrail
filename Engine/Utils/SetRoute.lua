@@ -22,10 +22,15 @@ function SetTrainRoute(signals, callback, sequential, repeatUntilSuccessful)
 
         if (not sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
-                Log(prevSignal .. " => " .. nextSignal .. " [T]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.TrainRoute)
             end
             orderId = order()
+
+            if (orderId ~= nil) then
+                Log("[" .. orderId .. "] " .. prevSignal .. " => " .. nextSignal .. " [T]")
+            else
+                Error("Couldn't submit request for route: " .. prevSignal .. " => " .. nextSignal .. "[T]")
+            end
 
             AddOrderStorageLog(
                 orderId, 
@@ -39,10 +44,15 @@ function SetTrainRoute(signals, callback, sequential, repeatUntilSuccessful)
             callbackFirstIteration = nil
         elseif (sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
-                Log(prevSignal .. " => " .. nextSignal .. " [T, S]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.TrainRoute)
             end
             orderId = order()
+
+            if (orderId ~= nil) then
+                Log("[" .. orderId .. "] " .. prevSignal .. " => " .. nextSignal .. " [T, S]")
+            else
+                Error("Couldn't submit request for route: " .. prevSignal .. " => " .. nextSignal .. "[T, S]")
+            end
 
             AddOrderStorageLog(
                 orderId, 
@@ -98,11 +108,16 @@ function SetShuntingRoute(signals, callback, sequential, repeatUntilSuccessful)
 
         if (not sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
-                Log(prevSignal .. " => " .. nextSignal .. " [M]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.ManeuverRoute)
             end
             orderId = order()
 
+            if (orderId ~= nil) then
+                Log("[" .. orderId .. "] " .. prevSignal .. " => " .. nextSignal .. " [M]")
+            else
+                Error("Couldn't submit request for route: " .. prevSignal .. " => " .. nextSignal .. "[M]")
+            end
+            
             AddOrderStorageLog(
                 orderId, 
                 {
@@ -115,10 +130,15 @@ function SetShuntingRoute(signals, callback, sequential, repeatUntilSuccessful)
             callbackFirstIteration = nil
         elseif (sequential and k > 1 and prevSignal ~= nil) then
             order = function ()
-                Log(prevSignal .. " => " .. nextSignal .. " [M, S]")
                 return VDSetRoute(prevSignal, nextSignal, VDOrderType.ManeuverRoute)
             end
             orderId = order()
+
+            if (orderId ~= nil) then
+                Log("[" .. orderId .. "] " .. prevSignal .. " => " .. nextSignal .. " [M, S]")
+            else
+                Error("Couldn't submit request for route: " .. prevSignal .. " => " .. nextSignal .. "[M, S]")
+            end
 
             AddOrderStorageLog(
                 orderId, 

@@ -177,6 +177,8 @@ function CreateTrainset(name, vehicles, stages, isPlayerVehicle)
 
                 if (timetable ~= nil) then
                     self._trainset.SetTimetable(timetable, false)
+                else
+                    Error("Couldn't load timetable: " .. timetableName)
                 end
             end, nil)
         end,
